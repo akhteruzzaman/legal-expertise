@@ -74,7 +74,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url('assets/home-bg.jpg') no-repeat center center;
+    background: url('../home-bg.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 40px 40px 0 0;
     /* Rounded only on top as per request */
