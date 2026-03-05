@@ -1,6 +1,6 @@
 <template>
   <section class="accreditations-section">
-    <div class="container text-end">
+    <div class="container ">
         <h2 class="section-title-services mb-2">اعتمادات الشركة</h2>
         <p class="section-subtitle-services mb-5">
             نمتلك اعتمادات وتراخيص مهنية تعكس التزامنا بالمعايير النظامية وأفضل الممارسات في تقديم الخدمات القانونية والاستشارية، محلياً ودولياً.

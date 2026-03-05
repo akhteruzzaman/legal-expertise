@@ -3,8 +3,8 @@
     <div class="container">
       <div class="blog-inner-container">
         <div class="mb-5">
-          <h2 class="section-title mb-2 text-start">المدونة القانونية</h2>
-          <p class="section-subtitle text-muted text-start">نشارككم مقالات قانونية مبسطة تسلّط الضوء على الأنظمة والتشريعات، وتساعد الأفراد والشركات على فهم حقوقهم واتخاذ قرارات قانونية واعية.</p>
+          <h2 class="section-title mb-2 ">المدونة القانونية</h2>
+          <p class="section-subtitle text-muted ">نشارككم مقالات قانونية مبسطة تسلّط الضوء على الأنظمة والتشريعات، وتساعد الأفراد والشركات على فهم حقوقهم واتخاذ قرارات قانونية واعية.</p>
         </div>
         <div class="row g-4">
           <!-- Blog 1 -->

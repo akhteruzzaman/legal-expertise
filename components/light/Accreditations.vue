@@ -2,8 +2,8 @@
   <section class="accreditations-section">
     <div class="container">
       <div class="mb-5">
-        <h2 class="section-title mb-2 text-start">اعتمادات الشركة</h2>
-        <p class="section-subtitle text-muted text-start">نمتلك اعتمادات وتراخيص مهنية تعكس التزامنا بالمعايير النظامية وأفضل الممارسات في تقديم الخدمات القانونية والاستشارية، محلياً ودولياً.</p>
+        <h2 class="section-title mb-2 ">اعتمادات الشركة</h2>
+        <p class="section-subtitle text-muted ">نمتلك اعتمادات وتراخيص مهنية تعكس التزامنا بالمعايير النظامية وأفضل الممارسات في تقديم الخدمات القانونية والاستشارية، محلياً ودولياً.</p>
       </div>
       <div class="row g-4">
         <!-- Accreditation 1 -->

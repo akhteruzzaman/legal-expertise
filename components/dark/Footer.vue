@@ -1,6 +1,6 @@
 <template>
   <footer class="footer-section">
-    <div class="container text-start">
+    <div class="container ">
         <div class="footer-top mb-5">
             <div class="d-flex justify-content-start align-items-center mb-4">
                 <img src="/assets/logo-dark.png" alt="Logo" class="footer-logo">

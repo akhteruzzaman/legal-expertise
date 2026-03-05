@@ -1,9 +1,9 @@
 <template>
   <section class="services-section">
     <div class="container ">
-        <h2 class="section-title-services mb-2">الخدمات القانونية</h2>
+        <h2 class="section-title-services mb-2">Legal Services</h2>
         <p class="section-subtitle-services mb-5">
-            نقدم خدمات قانونية مبنية على الخبرة والالتزام، مع حلول واضحة وموثوقة تناسب احتياجات عملائنا.
+            We provide legal services based on expertise and commitment, with clear and reliable solutions tailored to our clients' needs.
         </p>
 
         <div class="row g-4 justify-content-center">
@@ -13,11 +13,11 @@
                     <div class="feature-icon mb-4">
                         <i data-lucide="gavel"></i>
                     </div>
-                    <h3 class="feature-title">صياغة ومراجعة العقود</h3>
+                    <h3 class="feature-title">Contract Drafting and Review</h3>
                     <p class="feature-text">
-                        إعداد ومراجعة العقود بما يحفظ الحقوق ويقلل المخاطر.
+                        Drafting and reviewing contracts to preserve rights and minimize risks.
                     </p>
-                    <a href="#" class="details-link">تفاصيل أكثر <i data-lucide="chevron-left"
+                    <a href="#" class="details-link">Read More <i data-lucide="chevron-right"
                             class="small-icon"></i></a>
                 </div>
             </div>
@@ -27,11 +27,11 @@
                     <div class="feature-icon mb-4">
                         <i data-lucide="shield"></i>
                     </div>
-                    <h3 class="feature-title">القضايا المدنية والجنائية</h3>
+                    <h3 class="feature-title">Civil and Criminal Cases</h3>
                     <p class="feature-text">
-                        التعامل مع القضايا المدنية والجنائية باحترافية وسرية تامة.
+                        Handling civil and criminal cases with professionalism and complete confidentiality.
                     </p>
-                    <a href="#" class="details-link">تفاصيل أكثر <i data-lucide="chevron-left"
+                    <a href="#" class="details-link">Read More <i data-lucide="chevron-right"
                             class="small-icon"></i></a>
                 </div>
             </div>
@@ -41,11 +41,11 @@
                     <div class="feature-icon mb-4">
                         <i data-lucide="stamp"></i>
                     </div>
-                    <h3 class="feature-title">التحكيم وتسوية النزاعات</h3>
+                    <h3 class="feature-title">Arbitration and Dispute Settlement</h3>
                     <p class="feature-text">
-                        حل النزاعات بطرق قانونية بديلة تحفظ الوقت والتكاليف.
+                        Resolving disputes through alternative legal methods preserving time and costs.
                     </p>
-                    <a href="#" class="details-link">تفاصيل أكثر <i data-lucide="chevron-left"
+                    <a href="#" class="details-link">Read More <i data-lucide="chevron-right"
                             class="small-icon"></i></a>
                 </div>
             </div>

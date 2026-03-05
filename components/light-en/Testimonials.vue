@@ -2,8 +2,8 @@
   <section class="testimonials-section">
     <div class="container">
       <div class="mb-5">
-        <h2 class="section-title mb-2 ">آراء عملائنا</h2>
-        <p class="section-subtitle text-muted ">نعتز بثقة عملائنا ونسعى دائماً لتقديم خدمات قانونية ترتقي لتوقعاتهم.</p>
+        <h2 class="section-title mb-2 text-start">Client Testimonials</h2>
+        <p class="section-subtitle text-muted text-start">We cherish our clients' trust and continuously strive to provide legal services that exceed their expectations.</p>
       </div>
       <div class="row g-4 overflow-hidden">
         <!-- Testimonial 1 -->
@@ -16,10 +16,10 @@
               <i data-lucide="star" fill="#c3a46e"></i>
               <i data-lucide="star" fill="#c3a46e"></i>
             </div>
-            <p class="testimonial-text">"تعامل راق واحترافية عالية، حصلت على استشارة قانونية واضحة ساعدتني في اتخاذ القرار الصحيح بكل ثقة."</p>
+            <p class="testimonial-text">"Classy treatment and high professionalism. I received a clear legal consultation that helped me make the right decision with complete confidence."</p>
             <div class="testimonial-author">
-              <span class="testimonial-name">محمد بن عبدالله السبيعي</span>
-              <span class="testimonial-role">رجل أعمال</span>
+              <span class="testimonial-name">Mohammed bin Abdullah Al-Subaie</span>
+              <span class="testimonial-role">Businessman</span>
             </div>
           </div>
         </div>
@@ -33,10 +33,10 @@
               <i data-lucide="star" fill="#c3a46e"></i>
               <i data-lucide="star" fill="#c3a46e"></i>
             </div>
-            <p class="testimonial-text">"فريق قانوني متميز، متابعة دقيقة للقضية وتواصل مستمر حتى الوصول إلى نتيجة مرضية."</p>
+            <p class="testimonial-text">"An outstanding legal team, precise case follow-up, and continuous communication until reaching a satisfactory result."</p>
             <div class="testimonial-author">
-              <span class="testimonial-name">سارة بنت خالد العتيبي</span>
-              <span class="testimonial-role">صاحبة منشأة</span>
+              <span class="testimonial-name">Sarah bint Khalid Al-Otaibi</span>
+              <span class="testimonial-role">Business Owner</span>
             </div>
           </div>
         </div>
@@ -50,10 +50,10 @@
               <i data-lucide="star" fill="#c3a46e"></i>
               <i data-lucide="star" fill="#c3a46e"></i>
             </div>
-            <p class="testimonial-text">"خبرة قانونية واضحة وحرص على مصلحة العميل، أنصح بالتعامل معهم لمن يبحث عن الثقة والمهنية."</p>
+            <p class="testimonial-text">"Evident legal expertise and dedication to the client's best interests. I recommend dealing with them for anyone looking for trust and professionalism."</p>
             <div class="testimonial-author">
-              <span class="testimonial-name">عبدالرحمن بن فهد القحطاني</span>
-              <span class="testimonial-role">مدير شركة</span>
+              <span class="testimonial-name">Abdulrahman bin Fahad Al-Qahtani</span>
+              <span class="testimonial-role">Company Manager</span>
             </div>
           </div>
         </div>

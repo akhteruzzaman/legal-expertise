@@ -1,9 +1,9 @@
 <template>
   <section class="testimonials-section">
     <div class="container ">
-        <h2 class="section-title-services mb-2">آراء عملائنا</h2>
+        <h2 class="section-title-services mb-2">Our Clients' Reviews</h2>
         <p class="section-subtitle-services mb-5">
-            نعتز بثقة عملائنا ونسعى دائماً لتقديم خدمات قانونية ترتقي لتوقعاتهم.
+            We cherish the trust of our clients and always strive to provide legal services exceeding their expectations.
         </p>
 
         <div class="row g-4 justify-content-center">
@@ -18,11 +18,11 @@
                         <i data-lucide="star" class="star-icon"></i>
                     </div>
                     <p class="feature-text testimonial-text mb-4">
-                        "تعامل راقٍ واحترافية عالية، حصلت على استشارة قانونية واضحة ساعدتني في اتخاذ القرار الصحيح بكل ثقة."
+                        "Elegant dealing and high professionalism, I got clear legal consultation helping me make the right decision with confidence."
                     </p>
                     <div class="reviewer-info">
-                        <h4 class="reviewer-name">محمد بن عبدالله السبيعي</h4>
-                        <span class="reviewer-role">رجل أعمال</span>
+                        <h4 class="reviewer-name">Mohammed bin Abdullah Al-Subaie</h4>
+                        <span class="reviewer-role">Businessman</span>
                     </div>
                 </div>
             </div>
@@ -37,11 +37,11 @@
                         <i data-lucide="star" class="star-icon"></i>
                     </div>
                     <p class="feature-text testimonial-text mb-4">
-                        "فريق قانوني متميز، متابعة دقيقة للقضية وتواصل مستمر حتى الوصول إلى نتيجة مرضية."
+                        "Outstanding legal team, precise case tracking, and continuous communication until reaching a satisfactory result."
                     </p>
                     <div class="reviewer-info">
-                        <h4 class="reviewer-name">سارة بنت خالد العتيبي</h4>
-                        <span class="reviewer-role">صاحبة منشأة</span>
+                        <h4 class="reviewer-name">Sarah bint Khalid Al-Otaibi</h4>
+                        <span class="reviewer-role">Business Owner</span>
                     </div>
                 </div>
             </div>
@@ -56,11 +56,11 @@
                         <i data-lucide="star" class="star-icon"></i>
                     </div>
                     <p class="feature-text testimonial-text mb-4">
-                        "خبرة قانونية واضحة وحرص على مصلحة العميل، أنصح بالتعامل معهم لمن يبحث عن الثقة والمهنية."
+                        "Clear legal expertise and care for the client's interest, I advise dealing with them for those seeking trust and professionalism."
                     </p>
                     <div class="reviewer-info">
-                        <h4 class="reviewer-name">عبدالرحمن بن فهد القحطاني</h4>
-                        <span class="reviewer-role">مدير شركة</span>
+                        <h4 class="reviewer-name">Abdulrahman bin Fahd Al-Qahtani</h4>
+                        <span class="reviewer-role">Company Manager</span>
                     </div>
                 </div>
             </div>

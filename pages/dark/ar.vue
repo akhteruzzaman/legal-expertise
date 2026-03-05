@@ -31,7 +31,12 @@ import DarkFooter from '@/components/dark/Footer.vue'
 
 useHead({
   title: 'مكتب الرياض للمحاماة | نسخة داكنة',
+  htmlAttrs: {
+    lang: 'ar',
+    dir: 'rtl'
+  },
   link: [
+    { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css' },
     { rel: 'stylesheet', href: '/assets/css/dark.css' }
   ],
   script: [

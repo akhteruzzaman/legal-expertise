@@ -1,7 +1,7 @@
 <template>
   <section class="why-us-section">
     <div class="container">
-      <h2 class="section-title ">لماذا يثق بنا عملاؤنا</h2>
+      <h2 class="section-title text-start">Why our clients trust us</h2>
       <div class="row g-4">
         <!-- Card 1 -->
         <div class="col-lg-3 col-md-6">
@@ -9,9 +9,9 @@
             <div class="feature-icon">
               <i data-lucide="clipboard-list"></i>
             </div>
-            <h3 class="feature-title">متابعة دقيقة للقضايا</h3>
+            <h3 class="feature-title">Accurate case tracking</h3>
             <p class="feature-text">
-              نحرص على متابعة جميع القضايا خطوة بخطوة وإبقاء عملائنا على اطلاع دائم.
+              We ensure to follow all cases step-by-step and keep our clients constantly informed.
             </p>
           </div>
         </div>
@@ -21,9 +21,9 @@
             <div class="feature-icon">
               <i data-lucide="gavel"></i>
             </div>
-            <h3 class="feature-title">خبرة قانونية متخصصة</h3>
+            <h3 class="feature-title">Specialized legal expertise</h3>
             <p class="feature-text">
-              فريق من المحامين والمستشارين القانونيين ذوي خبرة واسعة في مختلف المجالات القانونية.
+              A team of lawyers and legal consultants with extensive experience in various legal fields.
             </p>
           </div>
         </div>
@@ -33,9 +33,9 @@
             <div class="feature-icon">
               <i data-lucide="shield"></i>
             </div>
-            <h3 class="feature-title">سرية ومهنية تامة</h3>
+            <h3 class="feature-title">Complete confidentiality and professionalism</h3>
             <p class="feature-text">
-              نلتزم بأعلى معايير السرية المهنية والأخلاق القانونية في جميع القضايا.
+              We commit to the highest standards of professional confidentiality and legal ethics in all cases.
             </p>
           </div>
         </div>
@@ -45,9 +45,9 @@
             <div class="feature-icon">
               <i data-lucide="user-round-check"></i>
             </div>
-            <h3 class="feature-title">تمثيل قانوني قوي</h3>
+            <h3 class="feature-title">Strong legal representation</h3>
             <p class="feature-text">
-              ندافع عن حقوق عملائنا أمام الجهات القضائية بكل احترافية وكفاءة.
+              We defend our clients' rights before judicial authorities with utmost professionalism and competence.
             </p>
           </div>
         </div>

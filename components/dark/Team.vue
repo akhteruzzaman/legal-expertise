@@ -1,6 +1,6 @@
 <template>
   <section class="team-section">
-    <div class="container text-end">
+    <div class="container ">
         <h2 class="section-title-services mb-2">فريق العمل</h2>
         <p class="section-subtitle-services mb-5">
             يضم مكتبنا نخبة من المحامين والمستشارين القانونيين الذين يعملون بروح الفريق لتقديم أفضل الحلول القانونية لعملائنا.

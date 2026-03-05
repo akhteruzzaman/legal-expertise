@@ -122,7 +122,7 @@ body {
     color: var(--text-dark);
     line-height: 1.2;
     margin-bottom: 2rem;
-    text-align: right;
+    text-align: left;
 }
 
 .hero-subtitle {
@@ -130,7 +130,7 @@ body {
     color: var(--text-muted);
     line-height: 1.8;
     margin-bottom: 2.5rem;
-    text-align: right;
+    text-align: left;
 }
 
 .btn-hero {
@@ -160,11 +160,11 @@ body {
     font-weight: 800;
     color: var(--text-dark);
     margin-bottom: 2rem;
-    text-align: right;
+    text-align: left;
 }
 
 .feature-card {
-    text-align: right;
+    text-align: left;
     padding: 0px;
 }
 
@@ -286,7 +286,7 @@ body {
     /* Clean white base */
     border-radius: 25px;
     padding: 40px 25px;
-    text-align: right;
+    text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     height: 100%;
     display: flex;
@@ -323,7 +323,7 @@ body {
     font-weight: 800;
     color: var(--text-dark);
     margin-bottom: 15px;
-    text-align: right;
+    text-align: left;
     /* Explicit right alignment */
     width: 100%;
 }
@@ -333,7 +333,7 @@ body {
     color: var(--text-muted);
     line-height: 1.7;
     margin-bottom: 25px;
-    text-align: right;
+    text-align: left;
     /* Explicit right alignment */
     width: 100%;
 }
@@ -417,7 +417,7 @@ body {
     color: var(--text-dark);
     margin-bottom: 15px;
     line-height: 1.5;
-    text-align: right;
+    text-align: left;
 }
 
 .blog-description {
@@ -425,7 +425,7 @@ body {
     color: var(--text-muted);
     line-height: 1.8;
     margin-bottom: 25px;
-    text-align: right;
+    text-align: left;
 }
 
 .blog-link {
@@ -510,7 +510,7 @@ body {
     font-weight: 800;
     color: var(--text-dark);
     margin-bottom: 15px;
-    text-align: right;
+    text-align: left;
     line-height: 1.5;
 }
 
@@ -519,7 +519,7 @@ body {
     color: var(--text-muted);
     line-height: 1.7;
     margin-bottom: 20px;
-    text-align: right;
+    text-align: left;
 }
 
 .accreditation-link {
@@ -577,13 +577,13 @@ body {
     line-height: 1.8;
     color: var(--text-dark);
     margin-bottom: 25px;
-    text-align: right;
+    text-align: left;
     width: 100%;
 }
 
 .testimonial-author {
     margin-top: auto;
-    text-align: right;
+    text-align: left;
     width: 100%;
 }
 
@@ -635,7 +635,7 @@ body {
 .cta-content {
     position: relative;
     z-index: 2;
-    text-align: right;
+    text-align: left;
     max-width: 600px;
 }
 
@@ -719,7 +719,7 @@ body {
     color: #c3a46e;
     font-weight: 700;
     font-size: 1.2rem;
-    text-align: right;
+    text-align: left;
 }
 
 .footer-list {
@@ -733,7 +733,7 @@ body {
     transition: color 0.3s ease;
     line-height: 2.2;
     display: block;
-    text-align: right;
+    text-align: left;
 }
 
 .footer-link:hover {

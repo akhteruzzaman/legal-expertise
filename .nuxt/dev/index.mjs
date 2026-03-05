@@ -2028,7 +2028,7 @@ const _Vj52dmaBD6pUEiF2rQ9SUgb0uf0W1cZ7DNLnklXKJI = (function(nitro) {
 
 const rootDir = "D:/PROJECTS/legal-expertise";
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"}],"style":[],"script":[{"src":"https://unpkg.com/lucide@latest"}],"noscript":[],"htmlAttrs":{"lang":"ar","dir":"rtl"}};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[{"id":"bootstrap-css","rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"}],"style":[],"script":[{"src":"https://unpkg.com/lucide@latest"}],"noscript":[],"htmlAttrs":{"lang":"ar","dir":"rtl"}};
 
 const appRootTag = "div";
 

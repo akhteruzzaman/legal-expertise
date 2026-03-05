@@ -14,6 +14,16 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 
+export const DarkEnAccreditations: typeof import("../components/dark-en/Accreditations.vue")['default']
+export const DarkEnBlog: typeof import("../components/dark-en/Blog.vue")['default']
+export const DarkEnCTA: typeof import("../components/dark-en/CTA.vue")['default']
+export const DarkEnFooter: typeof import("../components/dark-en/Footer.vue")['default']
+export const DarkEnHeader: typeof import("../components/dark-en/Header.vue")['default']
+export const DarkEnHero: typeof import("../components/dark-en/Hero.vue")['default']
+export const DarkEnServices: typeof import("../components/dark-en/Services.vue")['default']
+export const DarkEnTeam: typeof import("../components/dark-en/Team.vue")['default']
+export const DarkEnTestimonials: typeof import("../components/dark-en/Testimonials.vue")['default']
+export const DarkEnWhyUs: typeof import("../components/dark-en/WhyUs.vue")['default']
 export const DarkAccreditations: typeof import("../components/dark/Accreditations.vue")['default']
 export const DarkBlog: typeof import("../components/dark/Blog.vue")['default']
 export const DarkCTA: typeof import("../components/dark/CTA.vue")['default']
@@ -24,6 +34,16 @@ export const DarkServices: typeof import("../components/dark/Services.vue")['def
 export const DarkTeam: typeof import("../components/dark/Team.vue")['default']
 export const DarkTestimonials: typeof import("../components/dark/Testimonials.vue")['default']
 export const DarkWhyUs: typeof import("../components/dark/WhyUs.vue")['default']
+export const LightEnAccreditations: typeof import("../components/light-en/Accreditations.vue")['default']
+export const LightEnBlog: typeof import("../components/light-en/Blog.vue")['default']
+export const LightEnCTA: typeof import("../components/light-en/CTA.vue")['default']
+export const LightEnFooter: typeof import("../components/light-en/Footer.vue")['default']
+export const LightEnHeader: typeof import("../components/light-en/Header.vue")['default']
+export const LightEnHero: typeof import("../components/light-en/Hero.vue")['default']
+export const LightEnServices: typeof import("../components/light-en/Services.vue")['default']
+export const LightEnTeam: typeof import("../components/light-en/Team.vue")['default']
+export const LightEnTestimonials: typeof import("../components/light-en/Testimonials.vue")['default']
+export const LightEnWhyUs: typeof import("../components/light-en/WhyUs.vue")['default']
 export const LightAccreditations: typeof import("../components/light/Accreditations.vue")['default']
 export const LightBlog: typeof import("../components/light/Blog.vue")['default']
 export const LightCTA: typeof import("../components/light/CTA.vue")['default']
@@ -46,6 +66,8 @@ export const NuxtTime: typeof import("../node_modules/nuxt/dist/app/components/n
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']
 export const NuxtImg: typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']
 export const NuxtPicture: typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']
+export const NuxtLinkLocale: typeof import("../node_modules/@nuxtjs/i18n/dist/runtime/components/NuxtLinkLocale")['default']
+export const SwitchLocalePathLink: typeof import("../node_modules/@nuxtjs/i18n/dist/runtime/components/SwitchLocalePathLink")['default']
 export const NuxtPage: typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']
 export const NoScript: typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']
 export const Link: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Link']
@@ -57,6 +79,16 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
+export const LazyDarkEnAccreditations: LazyComponent<typeof import("../components/dark-en/Accreditations.vue")['default']>
+export const LazyDarkEnBlog: LazyComponent<typeof import("../components/dark-en/Blog.vue")['default']>
+export const LazyDarkEnCTA: LazyComponent<typeof import("../components/dark-en/CTA.vue")['default']>
+export const LazyDarkEnFooter: LazyComponent<typeof import("../components/dark-en/Footer.vue")['default']>
+export const LazyDarkEnHeader: LazyComponent<typeof import("../components/dark-en/Header.vue")['default']>
+export const LazyDarkEnHero: LazyComponent<typeof import("../components/dark-en/Hero.vue")['default']>
+export const LazyDarkEnServices: LazyComponent<typeof import("../components/dark-en/Services.vue")['default']>
+export const LazyDarkEnTeam: LazyComponent<typeof import("../components/dark-en/Team.vue")['default']>
+export const LazyDarkEnTestimonials: LazyComponent<typeof import("../components/dark-en/Testimonials.vue")['default']>
+export const LazyDarkEnWhyUs: LazyComponent<typeof import("../components/dark-en/WhyUs.vue")['default']>
 export const LazyDarkAccreditations: LazyComponent<typeof import("../components/dark/Accreditations.vue")['default']>
 export const LazyDarkBlog: LazyComponent<typeof import("../components/dark/Blog.vue")['default']>
 export const LazyDarkCTA: LazyComponent<typeof import("../components/dark/CTA.vue")['default']>
@@ -67,6 +99,16 @@ export const LazyDarkServices: LazyComponent<typeof import("../components/dark/S
 export const LazyDarkTeam: LazyComponent<typeof import("../components/dark/Team.vue")['default']>
 export const LazyDarkTestimonials: LazyComponent<typeof import("../components/dark/Testimonials.vue")['default']>
 export const LazyDarkWhyUs: LazyComponent<typeof import("../components/dark/WhyUs.vue")['default']>
+export const LazyLightEnAccreditations: LazyComponent<typeof import("../components/light-en/Accreditations.vue")['default']>
+export const LazyLightEnBlog: LazyComponent<typeof import("../components/light-en/Blog.vue")['default']>
+export const LazyLightEnCTA: LazyComponent<typeof import("../components/light-en/CTA.vue")['default']>
+export const LazyLightEnFooter: LazyComponent<typeof import("../components/light-en/Footer.vue")['default']>
+export const LazyLightEnHeader: LazyComponent<typeof import("../components/light-en/Header.vue")['default']>
+export const LazyLightEnHero: LazyComponent<typeof import("../components/light-en/Hero.vue")['default']>
+export const LazyLightEnServices: LazyComponent<typeof import("../components/light-en/Services.vue")['default']>
+export const LazyLightEnTeam: LazyComponent<typeof import("../components/light-en/Team.vue")['default']>
+export const LazyLightEnTestimonials: LazyComponent<typeof import("../components/light-en/Testimonials.vue")['default']>
+export const LazyLightEnWhyUs: LazyComponent<typeof import("../components/light-en/WhyUs.vue")['default']>
 export const LazyLightAccreditations: LazyComponent<typeof import("../components/light/Accreditations.vue")['default']>
 export const LazyLightBlog: LazyComponent<typeof import("../components/light/Blog.vue")['default']>
 export const LazyLightCTA: LazyComponent<typeof import("../components/light/CTA.vue")['default']>
@@ -89,6 +131,8 @@ export const LazyNuxtTime: LazyComponent<typeof import("../node_modules/nuxt/dis
 export const LazyNuxtRouteAnnouncer: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-route-announcer")['default']>
 export const LazyNuxtImg: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtImg']>
 export const LazyNuxtPicture: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-stubs")['NuxtPicture']>
+export const LazyNuxtLinkLocale: LazyComponent<typeof import("../node_modules/@nuxtjs/i18n/dist/runtime/components/NuxtLinkLocale")['default']>
+export const LazySwitchLocalePathLink: LazyComponent<typeof import("../node_modules/@nuxtjs/i18n/dist/runtime/components/SwitchLocalePathLink")['default']>
 export const LazyNuxtPage: LazyComponent<typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']>
 export const LazyNoScript: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']>
 export const LazyLink: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['Link']>

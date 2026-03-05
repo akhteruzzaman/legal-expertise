@@ -1,7 +1,7 @@
 <template>
   <section class="services-section">
     <div class="container">
-      <div class="text-start mb-5">
+      <div class=" mb-5">
         <h2 class="section-title mb-2">خدماتنا القانونية</h2>
         <p class="section-subtitle text-muted">نقدم خدمات قانونية مبنية على الخبرة والالتزام، مع حلول واضحة وموثوقة تناسب احتياجات عملائنا.</p>
       </div>

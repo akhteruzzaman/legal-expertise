@@ -2,8 +2,8 @@
   <section class="team-section">
     <div class="container">
       <div class="mb-5">
-        <h2 class="section-title mb-2 text-start">فريق العمل</h2>
-        <p class="section-subtitle text-muted text-start">يضم مكتبنا نخبة من المحامين والمستشارين القانونيين الذين يعملون بروح الفريق لتقديم أفضل الحلول القانونية لعملائنا.</p>
+        <h2 class="section-title mb-2 ">فريق العمل</h2>
+        <p class="section-subtitle text-muted ">يضم مكتبنا نخبة من المحامين والمستشارين القانونيين الذين يعملون بروح الفريق لتقديم أفضل الحلول القانونية لعملائنا.</p>
       </div>
       <div class="row g-4">
         <!-- Member 1 -->
