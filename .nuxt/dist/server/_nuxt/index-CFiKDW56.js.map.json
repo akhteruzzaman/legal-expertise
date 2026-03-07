@@ -1,0 +1,1 @@
+{"file":"index-CFiKDW56.js","mappings":";;;;;;;;;;;;;;;AACA,IAAA,CAAA,QAAA,SAAA,IAAAA,iBAAA,MAAM,WAAW,uBAAuB,CAAA;;;;;;;;;;;","names":["_withAsyncContext"],"sources":["../../../../pages/landing-page-dark/index.vue"],"sourcesContent":["<script setup>\r\nawait navigateTo('/landing-page-dark/ar')\r\n</script>\r\n"],"version":3}

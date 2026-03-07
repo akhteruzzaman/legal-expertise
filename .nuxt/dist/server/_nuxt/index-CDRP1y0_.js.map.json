@@ -1,0 +1,1 @@
+{"file":"index-CDRP1y0_.js","mappings":";;;;;;;;;;;;;;;AACA,IAAA,CAAA,QAAA,SAAA,IAAAA,iBAAA,MAAM,WAAW,oBAAoB,CAAA;;;;;;;;;;;","names":["_withAsyncContext"],"sources":["../../../../pages/landing-page-2/index.vue"],"sourcesContent":["<script setup>\r\nawait navigateTo('/landing-page-2/ar')\r\n</script>\r\n"],"version":3}

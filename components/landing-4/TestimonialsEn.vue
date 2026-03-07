@@ -142,6 +142,7 @@
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay as SwiperAutoplay } from 'swiper/modules'
 import 'swiper/css'
+import 'swiper/css/autoplay'
 </script>
 
 <style scoped>
@@ -150,6 +151,7 @@ import 'swiper/css'
 }
 
 .testimonials-swiper {
-  padding: 15px 5px 20px;
+  padding: 15px 100px 20px;
+  overflow: visible !important;
 }
 </style>

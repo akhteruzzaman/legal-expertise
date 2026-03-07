@@ -1,0 +1,5 @@
+const BlogEn_vue_vue_type_style_index_0_scoped_a32a76fe_lang = ".blog-outer-wrapper[data-v-a32a76fe]{background-color:#fdfbf7;border-radius:40px;padding:60px 20px}.blog-card[data-v-a32a76fe]{background:#fff;border:none;border-radius:30px;display:flex;flex-direction:column;padding:25px}.blog-img-wrapper img[data-v-a32a76fe]{border-radius:20px!important;height:250px;-o-object-fit:cover;object-fit:cover;width:100%}.wide-img img[data-v-a32a76fe]{height:300px}.blog-title[data-v-a32a76fe]{color:#1a2b4b;font-size:1.25rem;font-weight:700;line-height:1.5;text-align:left}.blog-description[data-v-a32a76fe]{color:#6c757d;flex-grow:1;font-size:.95rem;line-height:1.7;text-align:left}.blog-link[data-v-a32a76fe]{align-items:center;color:#c3a46e;display:flex;font-size:.95rem;font-weight:600;gap:5px;justify-content:flex-start;text-decoration:none}@media(max-width:992px){.wide-img img[data-v-a32a76fe]{height:250px}}";
+export {
+  BlogEn_vue_vue_type_style_index_0_scoped_a32a76fe_lang as default
+};
+//# sourceMappingURL=BlogEn-styles-1.mjs-DEvvnW1F.js.map

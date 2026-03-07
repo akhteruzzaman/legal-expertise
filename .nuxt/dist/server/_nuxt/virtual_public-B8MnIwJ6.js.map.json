@@ -1,0 +1,1 @@
+{"file":"virtual_public-B8MnIwJ6.js","mappings":";AAAuD,MAAA,aAAe,gBAAgB,wBAAwB;","names":[],"sources":["../../../../virtual:public?%2Fassets%2Flogo-light.png"],"sourcesContent":["import { publicAssetsURL } from '#internal/nuxt/paths';export default publicAssetsURL(\"/assets/logo-light.png\")"],"version":3}

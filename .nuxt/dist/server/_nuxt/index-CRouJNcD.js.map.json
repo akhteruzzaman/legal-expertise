@@ -1,0 +1,1 @@
+{"file":"index-CRouJNcD.js","mappings":";;;;;;;;;;;;;;;AACA,IAAA,CAAA,QAAA,SAAA,IAAAA,iBAAA,MAAM,WAAW,oBAAoB,CAAA;;;;;;;;;;;","names":["_withAsyncContext"],"sources":["../../../../pages/landing-page-4/index.vue"],"sourcesContent":["<script setup>\r\nawait navigateTo('/landing-page-4/ar')\r\n</script>\r\n"],"version":3}

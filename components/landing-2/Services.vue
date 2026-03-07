@@ -133,7 +133,7 @@
   display: block;
   filter: grayscale(100%) contrast(1.1) brightness(1.25);
   mix-blend-mode: multiply;
-  transition: all 0.5s ease;
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-img-wrapper:hover .service-img {

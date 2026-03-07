@@ -1,0 +1,1 @@
+{"version":3,"file":"index-CZ-nNiH0.js","sources":["../../../../pages/landing-page-3/index.vue"],"sourcesContent":["<script setup>\r\nawait navigateTo('/landing-page-3/ar')\r\n</script>\r\n"],"names":["_withAsyncContext"],"mappings":";;;;;;;;;;;;;;;AACA,IAAA,CAAA,QAAA,SAAA,IAAAA,iBAAA,MAAM,WAAW,oBAAoB,CAAA;;;;;;;;;;;"}
