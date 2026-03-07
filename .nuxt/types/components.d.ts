@@ -54,6 +54,28 @@ interface _GlobalComponents {
   Landing2TestimonialsEn: typeof import("../../components/landing-2/TestimonialsEn.vue")['default']
   Landing2WhyUs: typeof import("../../components/landing-2/WhyUs.vue")['default']
   Landing2WhyUsEn: typeof import("../../components/landing-2/WhyUsEn.vue")['default']
+  Landing4Accreditations: typeof import("../../components/landing-4/Accreditations.vue")['default']
+  Landing4AccreditationsEn: typeof import("../../components/landing-4/AccreditationsEn.vue")['default']
+  Landing4Blog: typeof import("../../components/landing-4/Blog.vue")['default']
+  Landing4BlogEn: typeof import("../../components/landing-4/BlogEn.vue")['default']
+  Landing4CTA: typeof import("../../components/landing-4/CTA.vue")['default']
+  Landing4CTAEn: typeof import("../../components/landing-4/CTAEn.vue")['default']
+  Landing4Footer: typeof import("../../components/landing-4/Footer.vue")['default']
+  Landing4FooterEn: typeof import("../../components/landing-4/FooterEn.vue")['default']
+  Landing4Header: typeof import("../../components/landing-4/Header.vue")['default']
+  Landing4HeaderEn: typeof import("../../components/landing-4/HeaderEn.vue")['default']
+  Landing4Hero: typeof import("../../components/landing-4/Hero.vue")['default']
+  Landing4HeroEn: typeof import("../../components/landing-4/HeroEn.vue")['default']
+  Landing4Services: typeof import("../../components/landing-4/Services.vue")['default']
+  Landing4ServicesEn: typeof import("../../components/landing-4/ServicesEn.vue")['default']
+  Landing4ServicesSlider: typeof import("../../components/landing-4/ServicesSlider.vue")['default']
+  Landing4ServicesSliderEn: typeof import("../../components/landing-4/ServicesSliderEn.vue")['default']
+  Landing4Team: typeof import("../../components/landing-4/Team.vue")['default']
+  Landing4TeamEn: typeof import("../../components/landing-4/TeamEn.vue")['default']
+  Landing4Testimonials: typeof import("../../components/landing-4/Testimonials.vue")['default']
+  Landing4TestimonialsEn: typeof import("../../components/landing-4/TestimonialsEn.vue")['default']
+  Landing4WhyUs: typeof import("../../components/landing-4/WhyUs.vue")['default']
+  Landing4WhyUsEn: typeof import("../../components/landing-4/WhyUsEn.vue")['default']
   LightEnAccreditations: typeof import("../../components/light-en/Accreditations.vue")['default']
   LightEnBlog: typeof import("../../components/light-en/Blog.vue")['default']
   LightEnCTA: typeof import("../../components/light-en/CTA.vue")['default']
@@ -137,6 +159,28 @@ interface _GlobalComponents {
   LazyLanding2TestimonialsEn: LazyComponent<typeof import("../../components/landing-2/TestimonialsEn.vue")['default']>
   LazyLanding2WhyUs: LazyComponent<typeof import("../../components/landing-2/WhyUs.vue")['default']>
   LazyLanding2WhyUsEn: LazyComponent<typeof import("../../components/landing-2/WhyUsEn.vue")['default']>
+  LazyLanding4Accreditations: LazyComponent<typeof import("../../components/landing-4/Accreditations.vue")['default']>
+  LazyLanding4AccreditationsEn: LazyComponent<typeof import("../../components/landing-4/AccreditationsEn.vue")['default']>
+  LazyLanding4Blog: LazyComponent<typeof import("../../components/landing-4/Blog.vue")['default']>
+  LazyLanding4BlogEn: LazyComponent<typeof import("../../components/landing-4/BlogEn.vue")['default']>
+  LazyLanding4CTA: LazyComponent<typeof import("../../components/landing-4/CTA.vue")['default']>
+  LazyLanding4CTAEn: LazyComponent<typeof import("../../components/landing-4/CTAEn.vue")['default']>
+  LazyLanding4Footer: LazyComponent<typeof import("../../components/landing-4/Footer.vue")['default']>
+  LazyLanding4FooterEn: LazyComponent<typeof import("../../components/landing-4/FooterEn.vue")['default']>
+  LazyLanding4Header: LazyComponent<typeof import("../../components/landing-4/Header.vue")['default']>
+  LazyLanding4HeaderEn: LazyComponent<typeof import("../../components/landing-4/HeaderEn.vue")['default']>
+  LazyLanding4Hero: LazyComponent<typeof import("../../components/landing-4/Hero.vue")['default']>
+  LazyLanding4HeroEn: LazyComponent<typeof import("../../components/landing-4/HeroEn.vue")['default']>
+  LazyLanding4Services: LazyComponent<typeof import("../../components/landing-4/Services.vue")['default']>
+  LazyLanding4ServicesEn: LazyComponent<typeof import("../../components/landing-4/ServicesEn.vue")['default']>
+  LazyLanding4ServicesSlider: LazyComponent<typeof import("../../components/landing-4/ServicesSlider.vue")['default']>
+  LazyLanding4ServicesSliderEn: LazyComponent<typeof import("../../components/landing-4/ServicesSliderEn.vue")['default']>
+  LazyLanding4Team: LazyComponent<typeof import("../../components/landing-4/Team.vue")['default']>
+  LazyLanding4TeamEn: LazyComponent<typeof import("../../components/landing-4/TeamEn.vue")['default']>
+  LazyLanding4Testimonials: LazyComponent<typeof import("../../components/landing-4/Testimonials.vue")['default']>
+  LazyLanding4TestimonialsEn: LazyComponent<typeof import("../../components/landing-4/TestimonialsEn.vue")['default']>
+  LazyLanding4WhyUs: LazyComponent<typeof import("../../components/landing-4/WhyUs.vue")['default']>
+  LazyLanding4WhyUsEn: LazyComponent<typeof import("../../components/landing-4/WhyUsEn.vue")['default']>
   LazyLightEnAccreditations: LazyComponent<typeof import("../../components/light-en/Accreditations.vue")['default']>
   LazyLightEnBlog: LazyComponent<typeof import("../../components/light-en/Blog.vue")['default']>
   LazyLightEnCTA: LazyComponent<typeof import("../../components/light-en/CTA.vue")['default']>

@@ -38,6 +38,19 @@
               </div>
             </div>
 
+            <!-- Landing Page 4 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'landing-page-4'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="sun"></i>
+                </div>
+                <div class="content">
+                  <h3>Landing Page 4</h3>
+                  <span>Light Version</span>
+                </div>
+              </div>
+            </div>
+
             <!-- Landing Page 5 -->
             <div class="col-md-5 col-lg-4">
               <div @click="selectedTheme = 'landing-page-5'" class="choice-card clickable">
@@ -68,7 +81,7 @@
 
         <!-- Step 2: Language Selection -->
         <div v-else key="step2">
-          <h1 class="main-title">{{ (selectedTheme === 'landing-page-5' || selectedTheme === 'landing-page-1' || selectedTheme === 'landing-page-2') ? 'Light Version' : 'Dark Version' }}</h1>
+          <h1 class="main-title">{{ (selectedTheme === 'landing-page-5' || selectedTheme === 'landing-page-4' || selectedTheme === 'landing-page-1' || selectedTheme === 'landing-page-2') ? 'Light Version' : 'Dark Version' }}</h1>
           <p class="subtitle">Select your preferred language</p>
 
           <div class="row g-4 mt-4 justify-content-center">
