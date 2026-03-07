@@ -1,30 +1,30 @@
 <template>
   <div class="light-version">
-    <LightEnHeader />
-    <LightEnHero :show-play-button="false" />
-    <LightEnWhyUs />
-    <LightEnServices />
-    <LightEnTeam />
-    <LightEnBlog />
-    <LightEnAccreditations />
-    <LightEnTestimonials />
-    <LightEnCTA />
-    <LightEnFooter />
+    <Landing2Header />
+    <Landing2Hero />
+    <Landing2WhyUs />
+    <Landing2Services />
+    <Landing2Team />
+    <Landing2Blog />
+    <Landing2Accreditations />
+    <Landing2Testimonials />
+    <Landing2CTA />
+    <Landing2Footer />
   </div>
 </template>
 
 <script setup>
 import { onMounted } from 'vue'
-import LightEnHeader from '@/components/light-en/Header.vue'
-import LightEnHero from '@/components/light-en/Hero.vue'
-import LightEnWhyUs from '@/components/light-en/WhyUs.vue'
-import LightEnServices from '@/components/light-en/Services.vue'
-import LightEnTeam from '@/components/light-en/Team.vue'
-import LightEnBlog from '@/components/light-en/Blog.vue'
-import LightEnAccreditations from '@/components/light-en/Accreditations.vue'
-import LightEnTestimonials from '@/components/light-en/Testimonials.vue'
-import LightEnCTA from '@/components/light-en/CTA.vue'
-import LightEnFooter from '@/components/light-en/Footer.vue'
+import Landing2Header from '@/components/landing-2/HeaderEn.vue'
+import Landing2Hero from '@/components/landing-2/HeroEn.vue'
+import Landing2WhyUs from '@/components/landing-2/WhyUsEn.vue'
+import Landing2Services from '@/components/landing-2/ServicesEn.vue'
+import Landing2Team from '@/components/landing-2/TeamEn.vue'
+import Landing2Blog from '@/components/landing-2/BlogEn.vue'
+import Landing2Accreditations from '@/components/landing-2/AccreditationsEn.vue'
+import Landing2Testimonials from '@/components/landing-2/TestimonialsEn.vue'
+import Landing2CTA from '@/components/landing-2/CTAEn.vue'
+import Landing2Footer from '@/components/landing-2/FooterEn.vue'
 
 useHead({
   title: 'Al Riyadh Law Firm | Trusted Legal Expertise',
@@ -55,5 +55,4 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
-
 </style>

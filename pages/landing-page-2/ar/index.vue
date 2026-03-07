@@ -1,30 +1,30 @@
 <template>
   <div class="light-version">
-    <LightHeader />
-    <LightHero :show-play-button="false" />
-    <LightWhyUs />
-    <LightServices />
-    <LightTeam />
-    <LightBlog />
-    <LightAccreditations />
-    <LightTestimonials />
-    <LightCTA />
-    <LightFooter />
+    <Landing2Header />
+    <Landing2Hero />
+    <Landing2WhyUs />
+    <Landing2Services />
+    <Landing2Team />
+    <Landing2Blog />
+    <Landing2Accreditations />
+    <Landing2Testimonials />
+    <Landing2CTA />
+    <Landing2Footer />
   </div>
 </template>
 
 <script setup>
 import { onMounted } from 'vue'
-import LightHeader from '@/components/light/Header.vue'
-import LightHero from '@/components/light/Hero.vue'
-import LightWhyUs from '@/components/light/WhyUs.vue'
-import LightServices from '@/components/light/Services.vue'
-import LightTeam from '@/components/light/Team.vue'
-import LightBlog from '@/components/light/Blog.vue'
-import LightAccreditations from '@/components/light/Accreditations.vue'
-import LightTestimonials from '@/components/light/Testimonials.vue'
-import LightCTA from '@/components/light/CTA.vue'
-import LightFooter from '@/components/light/Footer.vue'
+import Landing2Header from '@/components/landing-2/Header.vue'
+import Landing2Hero from '@/components/landing-2/Hero.vue'
+import Landing2WhyUs from '@/components/landing-2/WhyUs.vue'
+import Landing2Services from '@/components/landing-2/Services.vue'
+import Landing2Team from '@/components/landing-2/Team.vue'
+import Landing2Blog from '@/components/landing-2/Blog.vue'
+import Landing2Accreditations from '@/components/landing-2/Accreditations.vue'
+import Landing2Testimonials from '@/components/landing-2/Testimonials.vue'
+import Landing2CTA from '@/components/landing-2/CTA.vue'
+import Landing2Footer from '@/components/landing-2/Footer.vue'
 
 useHead({
   title: 'مكتب الرياض للمحاماة | خبرة قانونية موثوقة',

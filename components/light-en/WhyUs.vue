@@ -56,5 +56,8 @@
   </section>
 </template>
 
-<script setup>
-</script>
+<style scoped>
+.why-us-section {
+  background-color: white !important;
+}
+</style>
