@@ -1,3 +1,7 @@
+html {
+    font-size: 15px;
+}
+
 :root {
     --primary-light: #ffffff;
     --secondary-light: #f8f9fa;
@@ -152,7 +156,7 @@ body {
 /* Why Us Section */
 .why-us-section {
     padding: 20px 0 30px;
-    background-color: var(--secondary-light);
+    background-color: transparent;
 }
 
 .section-title {
@@ -810,6 +814,7 @@ body {
         justify-content: center;
     }
 }
+
 @media (min-width: 1600px) {
     .container {
         max-width: 1500px !important;
