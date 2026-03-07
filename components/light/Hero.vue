@@ -14,7 +14,7 @@
         <div class="col-lg-7">
           <div class="hero-img-container">
             <img src="/assets/home-bg-light.jpg" alt="Legal Expertise" class="hero-img">
-            <div class="play-button">
+            <div v-if="showPlayButton" class="play-button">
               <i data-lucide="play"></i>
             </div>
           </div>
@@ -25,4 +25,10 @@
 </template>
 
 <script setup>
+defineProps({
+  showPlayButton: {
+    type: Boolean,
+    default: true
+  }
+})
 </script>
