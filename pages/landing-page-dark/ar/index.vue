@@ -40,7 +40,8 @@ useHead({
     { rel: 'stylesheet', href: '/assets/css/dark.css' }
   ],
   script: [
-    { src: 'https://unpkg.com/lucide@latest' }
+    { src: 'https://unpkg.com/lucide@latest' },
+    { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js' }
   ]
 })
 

@@ -820,3 +820,237 @@ body {
         max-width: 1500px !important;
     }
 }
+
+/* =============================================
+   MOBILE RESPONSIVENESS — Landing Page 1
+   ============================================= */
+
+/* Tablet (768px - 991px) */
+@media (max-width: 991.98px) {
+    /* Hero */
+    .hero-section {
+        padding: 30px 0;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .hero-subtitle {
+        text-align: center;
+    }
+
+    .hero-content {
+        order: 2;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .col-lg-7 {
+        order: 1;
+    }
+
+    .btn-hero {
+        display: block;
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    /* Section titles */
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* Services */
+    .service-img {
+        height: 280px;
+    }
+
+    /* Blog: fix -100px overflow on tablet */
+    .blog-inner-container {
+        margin: 0 !important;
+        padding: 50px 30px;
+        border-radius: 15px;
+    }
+
+    /* CTA: fix -100px overflow on tablet */
+    .cta-container {
+        margin: 0 !important;
+        padding: 50px 30px;
+    }
+
+    /* Sliders: reduce stage padding on tablet */
+    .team-swiper,
+    .testimonials-swiper {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    /* Footer: fix negative margins */
+    .footer-section {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 50px 30px 30px;
+        border-radius: 15px 15px 0 0;
+    }
+}
+
+/* Large Phones (576px - 767px) */
+@media (max-width: 767.98px) {
+    /* Hero */
+    .hero-title {
+        font-size: 1.9rem;
+    }
+
+    .hero-img-container {
+        border-radius: 20px;
+    }
+
+    /* Section titles */
+    .section-title {
+        font-size: 1.75rem;
+        text-align: center !important;
+    }
+
+    .section-subtitle {
+        text-align: center !important;
+    }
+
+    /* Services */
+    .service-img {
+        height: 220px;
+    }
+
+    .staggered-row {
+        margin-bottom: 2rem !important;
+    }
+
+    /* Blog */
+    .blog-inner-container {
+        padding: 35px 20px;
+    }
+
+    .blog-img-wrapper {
+        height: 200px;
+    }
+
+    /* CTA */
+    .cta-container {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .cta-title {
+        font-size: 1.75rem;
+    }
+
+    .cta-subtitle {
+        font-size: 1rem;
+    }
+
+    /* Sliders: further reduce stage padding */
+    .team-swiper,
+    .testimonials-swiper {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+/* Small Phones (max 575px) */
+@media (max-width: 575.98px) {
+    html {
+        font-size: 14px;
+    }
+
+    /* Navbar */
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+    }
+
+    .btn-consult {
+        font-size: 0.8rem;
+        padding: 8px 18px;
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 1.65rem;
+        line-height: 1.3;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .btn-hero {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+    }
+
+    /* Section titles */
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    /* Services */
+    .service-img {
+        height: 180px;
+    }
+
+    .service-item-title {
+        font-size: 1.4rem;
+    }
+
+    /* Team & Testimonials cards */
+    .team-card {
+        padding: 25px 20px;
+    }
+
+    .team-img-wrapper {
+        width: 110px;
+        height: 110px;
+    }
+
+    .testimonial-card {
+        padding: 25px 20px;
+    }
+
+    /* Blog */
+    .blog-inner-container {
+        padding: 25px 15px;
+    }
+
+    .blog-btn-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* CTA */
+    .cta-title {
+        font-size: 1.5rem;
+    }
+
+    .cta-btn {
+        padding: 12px 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Footer */
+    .footer-section {
+        padding: 40px 15px 25px;
+    }
+
+    /* Sliders: remove stage padding on small phones */
+    .team-swiper,
+    .testimonials-swiper {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}

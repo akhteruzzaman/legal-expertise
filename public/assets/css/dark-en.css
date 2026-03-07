@@ -568,7 +568,7 @@ body {
         position: relative;
         text-align: center;
         bottom: 0;
-        right: 0;
+        left: 0;
         margin-top: 50px;
     }
 
@@ -580,5 +580,213 @@ body {
 @media (min-width: 1600px) {
     .container {
         max-width: 1500px !important;
+    }
+}
+
+/* =============================================
+   MOBILE RESPONSIVENESS — Dark Landing Page EN
+   ============================================= */
+
+/* Tablet (768px - 991px) */
+@media (max-width: 991.98px) {
+    body {
+        padding: 10px;
+    }
+
+    .navbar {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+        background: var(--primary-dark);
+        padding: 1rem 0;
+    }
+
+    .hero-section {
+        min-height: 600px;
+        height: auto;
+        padding: 120px 0 60px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .section-title-services {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .section-subtitle-services {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .cta-title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .cta-text {
+        text-align: center;
+    }
+
+    .cta-container {
+        text-align: center !important;
+    }
+}
+
+/* Large Phones (576px - 767px) */
+@media (max-width: 767.98px) {
+    body {
+        padding: 8px;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .btn-consult {
+        font-size: 0.8rem;
+        padding: 7px 16px;
+    }
+
+    .hero-section {
+        min-height: 500px;
+        padding: 100px 0 50px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        letter-spacing: 0;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-btn {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .feature-card {
+        padding: 30px 20px;
+    }
+
+    .feature-title {
+        font-size: 1.25rem;
+    }
+
+    .section-title-services {
+        font-size: 1.75rem;
+    }
+
+    .blog-img-container {
+        height: 180px;
+    }
+
+    .cta-title {
+        font-size: 1.6rem;
+    }
+
+    .btn-cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-heading,
+    .footer-link,
+    .footer-text {
+        text-align: center !important;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
+
+/* Small Phones (max 575px) */
+@media (max-width: 575.98px) {
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        padding: 5px;
+    }
+
+    .navbar-brand img {
+        height: 42px;
+    }
+
+    .hero-section {
+        min-height: 420px;
+        padding: 90px 0 40px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .hero-title {
+        font-size: 1.7rem;
+        line-height: 1.3;
+        margin-top: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .section-title-hero {
+        font-size: 2rem;
+    }
+
+    .feature-card {
+        padding: 25px 15px;
+        border-radius: 20px;
+    }
+
+    .feature-title {
+        font-size: 1.1rem;
+    }
+
+    .section-title-services {
+        font-size: 1.5rem;
+    }
+
+    .blog-img-container {
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .cta-title {
+        font-size: 1.4rem;
+    }
+
+    .cta-text {
+        font-size: 0.95rem;
+    }
+
+    .team-img-container {
+        width: 110px;
+        height: 110px;
+    }
+
+    .footer-section {
+        padding: 50px 0 30px;
     }
 }
