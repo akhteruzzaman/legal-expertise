@@ -572,3 +572,8 @@ body {
         padding: 30px 20px;
     }
 }
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1500px !important;
+    }
+}
