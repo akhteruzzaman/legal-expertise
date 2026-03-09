@@ -144,6 +144,38 @@ interface _GlobalComponents {
   LightTeam: typeof import("../../components/light/Team.vue")['default']
   LightTestimonials: typeof import("../../components/light/Testimonials.vue")['default']
   LightWhyUs: typeof import("../../components/light/WhyUs.vue")['default']
+  Services1BreadcrumbAr: typeof import("../../components/services-1/BreadcrumbAr.vue")['default']
+  Services1BreadcrumbEn: typeof import("../../components/services-1/BreadcrumbEn.vue")['default']
+  Services1CTAAr: typeof import("../../components/services-1/CTAAr.vue")['default']
+  Services1CTAEn: typeof import("../../components/services-1/CTAEn.vue")['default']
+  Services1HeroAr: typeof import("../../components/services-1/HeroAr.vue")['default']
+  Services1HeroEn: typeof import("../../components/services-1/HeroEn.vue")['default']
+  Services1ServicesListAr: typeof import("../../components/services-1/ServicesListAr.vue")['default']
+  Services1ServicesListEn: typeof import("../../components/services-1/ServicesListEn.vue")['default']
+  Services2CTAAr: typeof import("../../components/services-2/CTAAr.vue")['default']
+  Services2CTAEn: typeof import("../../components/services-2/CTAEn.vue")['default']
+  Services2FooterAr: typeof import("../../components/services-2/FooterAr.vue")['default']
+  Services2FooterEn: typeof import("../../components/services-2/FooterEn.vue")['default']
+  Services2ServicesGridAr: typeof import("../../components/services-2/ServicesGridAr.vue")['default']
+  Services2ServicesGridEn: typeof import("../../components/services-2/ServicesGridEn.vue")['default']
+  Services3CTAAr: typeof import("../../components/services-3/CTAAr.vue")['default']
+  Services3CTAEn: typeof import("../../components/services-3/CTAEn.vue")['default']
+  Services3FooterAr: typeof import("../../components/services-3/FooterAr.vue")['default']
+  Services3FooterEn: typeof import("../../components/services-3/FooterEn.vue")['default']
+  Services3ServicesGridAr: typeof import("../../components/services-3/ServicesGridAr.vue")['default']
+  Services3ServicesGridEn: typeof import("../../components/services-3/ServicesGridEn.vue")['default']
+  Services4CTAAr: typeof import("../../components/services-4/CTAAr.vue")['default']
+  Services4CTAEn: typeof import("../../components/services-4/CTAEn.vue")['default']
+  Services4FooterAr: typeof import("../../components/services-4/FooterAr.vue")['default']
+  Services4FooterEn: typeof import("../../components/services-4/FooterEn.vue")['default']
+  Services4ServicesGridAr: typeof import("../../components/services-4/ServicesGridAr.vue")['default']
+  Services4ServicesGridEn: typeof import("../../components/services-4/ServicesGridEn.vue")['default']
+  Services5CTAAr: typeof import("../../components/services-5/CTAAr.vue")['default']
+  Services5CTAEn: typeof import("../../components/services-5/CTAEn.vue")['default']
+  Services5FooterAr: typeof import("../../components/services-5/FooterAr.vue")['default']
+  Services5FooterEn: typeof import("../../components/services-5/FooterEn.vue")['default']
+  Services5ServicesGridAr: typeof import("../../components/services-5/ServicesGridAr.vue")['default']
+  Services5ServicesGridEn: typeof import("../../components/services-5/ServicesGridEn.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   NuxtErrorBoundary: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -297,6 +329,38 @@ interface _GlobalComponents {
   LazyLightTeam: LazyComponent<typeof import("../../components/light/Team.vue")['default']>
   LazyLightTestimonials: LazyComponent<typeof import("../../components/light/Testimonials.vue")['default']>
   LazyLightWhyUs: LazyComponent<typeof import("../../components/light/WhyUs.vue")['default']>
+  LazyServices1BreadcrumbAr: LazyComponent<typeof import("../../components/services-1/BreadcrumbAr.vue")['default']>
+  LazyServices1BreadcrumbEn: LazyComponent<typeof import("../../components/services-1/BreadcrumbEn.vue")['default']>
+  LazyServices1CTAAr: LazyComponent<typeof import("../../components/services-1/CTAAr.vue")['default']>
+  LazyServices1CTAEn: LazyComponent<typeof import("../../components/services-1/CTAEn.vue")['default']>
+  LazyServices1HeroAr: LazyComponent<typeof import("../../components/services-1/HeroAr.vue")['default']>
+  LazyServices1HeroEn: LazyComponent<typeof import("../../components/services-1/HeroEn.vue")['default']>
+  LazyServices1ServicesListAr: LazyComponent<typeof import("../../components/services-1/ServicesListAr.vue")['default']>
+  LazyServices1ServicesListEn: LazyComponent<typeof import("../../components/services-1/ServicesListEn.vue")['default']>
+  LazyServices2CTAAr: LazyComponent<typeof import("../../components/services-2/CTAAr.vue")['default']>
+  LazyServices2CTAEn: LazyComponent<typeof import("../../components/services-2/CTAEn.vue")['default']>
+  LazyServices2FooterAr: LazyComponent<typeof import("../../components/services-2/FooterAr.vue")['default']>
+  LazyServices2FooterEn: LazyComponent<typeof import("../../components/services-2/FooterEn.vue")['default']>
+  LazyServices2ServicesGridAr: LazyComponent<typeof import("../../components/services-2/ServicesGridAr.vue")['default']>
+  LazyServices2ServicesGridEn: LazyComponent<typeof import("../../components/services-2/ServicesGridEn.vue")['default']>
+  LazyServices3CTAAr: LazyComponent<typeof import("../../components/services-3/CTAAr.vue")['default']>
+  LazyServices3CTAEn: LazyComponent<typeof import("../../components/services-3/CTAEn.vue")['default']>
+  LazyServices3FooterAr: LazyComponent<typeof import("../../components/services-3/FooterAr.vue")['default']>
+  LazyServices3FooterEn: LazyComponent<typeof import("../../components/services-3/FooterEn.vue")['default']>
+  LazyServices3ServicesGridAr: LazyComponent<typeof import("../../components/services-3/ServicesGridAr.vue")['default']>
+  LazyServices3ServicesGridEn: LazyComponent<typeof import("../../components/services-3/ServicesGridEn.vue")['default']>
+  LazyServices4CTAAr: LazyComponent<typeof import("../../components/services-4/CTAAr.vue")['default']>
+  LazyServices4CTAEn: LazyComponent<typeof import("../../components/services-4/CTAEn.vue")['default']>
+  LazyServices4FooterAr: LazyComponent<typeof import("../../components/services-4/FooterAr.vue")['default']>
+  LazyServices4FooterEn: LazyComponent<typeof import("../../components/services-4/FooterEn.vue")['default']>
+  LazyServices4ServicesGridAr: LazyComponent<typeof import("../../components/services-4/ServicesGridAr.vue")['default']>
+  LazyServices4ServicesGridEn: LazyComponent<typeof import("../../components/services-4/ServicesGridEn.vue")['default']>
+  LazyServices5CTAAr: LazyComponent<typeof import("../../components/services-5/CTAAr.vue")['default']>
+  LazyServices5CTAEn: LazyComponent<typeof import("../../components/services-5/CTAEn.vue")['default']>
+  LazyServices5FooterAr: LazyComponent<typeof import("../../components/services-5/FooterAr.vue")['default']>
+  LazyServices5FooterEn: LazyComponent<typeof import("../../components/services-5/FooterEn.vue")['default']>
+  LazyServices5ServicesGridAr: LazyComponent<typeof import("../../components/services-5/ServicesGridAr.vue")['default']>
+  LazyServices5ServicesGridEn: LazyComponent<typeof import("../../components/services-5/ServicesGridEn.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   LazyNuxtErrorBoundary: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>

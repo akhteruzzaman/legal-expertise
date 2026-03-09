@@ -37,6 +37,19 @@
                 </div>
               </div>
             </div>
+
+            <!-- Services -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedCategory = 'services'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="briefcase"></i>
+                </div>
+                <div class="content">
+                  <h3>Services</h3>
+                  <span>Our Services Pages</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -107,6 +120,86 @@
                 <div class="content">
                   <h3>About 5</h3>
                   <span>About Us Page</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <button @click="selectedCategory = null" class="btn-back">
+              <i data-lucide="arrow-left"></i>
+              Back to Sections
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2c: Services Page Selection -->
+        <div v-else-if="selectedCategory === 'services' && !selectedTheme" key="step-services">
+          <h1 class="main-title">Services Pages</h1>
+          <p class="subtitle">Choose a Services page version</p>
+
+          <div class="row g-4 mt-4 justify-content-center">
+            <!-- Services 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'services/services-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-check"></i>
+                </div>
+                <div class="content">
+                  <h3>Services 1</h3>
+                  <span>Our Services Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Services 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'services/services-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-check"></i>
+                </div>
+                <div class="content">
+                  <h3>Services 2</h3>
+                  <span>Our Services Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Services 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'services/services-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-check"></i>
+                </div>
+                <div class="content">
+                  <h3>Services 3</h3>
+                  <span>Our Services Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Services 4 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'services/services-4'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-check"></i>
+                </div>
+                <div class="content">
+                  <h3>Services 4</h3>
+                  <span>Our Services Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Services 5 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'services/services-5'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-check"></i>
+                </div>
+                <div class="content">
+                  <h3>Services 5</h3>
+                  <span>Our Services Page</span>
                 </div>
               </div>
             </div>
@@ -219,7 +312,8 @@
             {{ ['landing-page-dark'].includes(selectedTheme) ? 'Dark Version' : 'Light Version' }}
           </h1>
           <h1 class="main-title" v-else>
-            {{ selectedTheme.startsWith('about/about-') ? 'About ' + selectedTheme.split('-')[1] : 'About Pages' }}
+            {{ selectedTheme.startsWith('about/about-') ? 'About ' + selectedTheme.split('-')[1] : 
+               selectedTheme.startsWith('services/services-') ? 'Services ' + selectedTheme.split('-')[1] : 'Pages' }}
           </h1>
           <p class="subtitle">Select your preferred language</p>
 
@@ -254,7 +348,8 @@
           <div class="mt-5">
             <button @click="goBackFromLanguage" class="btn-back">
               <i data-lucide="arrow-left"></i>
-              {{ selectedCategory === 'home' ? 'Back to Versions' : 'Back to About Pages' }}
+              {{ selectedCategory === 'home' ? 'Back to Versions' : 
+                 selectedCategory === 'about' ? 'Back to About Pages' : 'Back to Services Pages' }}
             </button>
           </div>
         </div>
@@ -270,8 +365,8 @@ const selectedCategory = ref(null)
 const selectedTheme = ref(null)
 
 const goBackFromLanguage = () => {
-  if (selectedCategory.value === 'about') {
-    // Go back to About page selection
+  if (selectedCategory.value === 'about' || selectedCategory.value === 'services') {
+    // Go back to version selection
     selectedTheme.value = null
   } else {
     selectedTheme.value = null
@@ -444,4 +539,3 @@ watch([selectedCategory, selectedTheme], () => {
   .choice-card { padding: 30px 20px; }
 }
 </style>
-
