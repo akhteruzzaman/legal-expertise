@@ -11,7 +11,7 @@
 <script setup>
 import { onMounted } from 'vue'
 import HeaderEn from '@/components/shared-landing-4/HeaderEn.vue'
-import HeroEn from '@/components/shared-landing-4/HeroEn.vue'
+import HeroEn from '@/components/team-1/HeroEn.vue'
 import TeamGridEn from '@/components/team-1/TeamGridEn.vue'
 import CTAEn from '@/components/team-1/CTAEn.vue'
 import FooterEn from '@/components/team-1/FooterEn.vue'

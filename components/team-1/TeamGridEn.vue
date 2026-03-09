@@ -1,37 +1,50 @@
 <template>
-  <section class="team-grid-section py-5">
+  <section class="team-grid-section">
     <div class="container">
-      <!-- Team Sections -->
-      <div v-for="(section, sIndex) in teamSections" :key="sIndex" class="team-section mb-100">
-        <!-- Section Header -->
-        <div class="row mb-4 align-items-center">
-          <div class="col-6 text-start">
-            <h2 class="section-v3-title mb-0">{{ section.title }}</h2>
-          </div>
-          <div class="col-6 text-end">
-            <a href="#" class="view-all-link">View All</a>
-          </div>
-        </div>
 
-        <!-- Team Grid -->
-        <div class="row g-4 justify-content-center">
-          <div v-for="(member, index) in section.members" :key="index" class="col-md-6 col-lg-3">
-            <div class="team-v2-card h-100 shadow-sm">
-              <div class="member-image-wrapper mb-4">
-                <div class="member-image-placeholder">
-                  <i data-lucide="user" class="icon-gold"></i>
-                </div>
-              </div>
-              <h3 class="member-v2-title">{{ member.name }}</h3>
-              <p class="member-v2-role">{{ member.role }}</p>
-              <div class="social-links-v2 mt-auto">
-                <a href="#" class="social-link-v2"><i data-lucide="linkedin"></i></a>
-                <a href="#" class="social-link-v2"><i data-lucide="mail"></i></a>
-              </div>
+      <!-- Section Title -->
+      <div class="section-header text-start mb-5">
+        <h2 class="section-title">Our Legal Team</h2>
+      </div>
+
+      <!-- Row 1 -->
+      <div class="row g-4 mb-4">
+        <div v-for="(member, index) in teamMembers.slice(0, 4)" :key="'r1-' + index" class="col-6 col-md-3">
+          <div class="team-card h-100" :class="{ 'team-card--featured': index === 0 }">
+            <div class="team-photo-wrap">
+              <img src="/assets/team-members.png" :alt="member.name" class="team-photo" />
+            </div>
+            <div class="team-body">
+              <h3 class="team-name">{{ member.name }}</h3>
+              <p class="team-desc">{{ member.description }}</p>
+              <a href="#" class="team-link">
+                More Details
+                <i data-lucide="chevron-right" class="link-icon"></i>
+              </a>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Row 2 -->
+      <div class="row g-4">
+        <div v-for="(member, index) in teamMembers.slice(4, 8)" :key="'r2-' + index" class="col-6 col-md-3">
+          <div class="team-card h-100">
+            <div class="team-photo-wrap">
+              <img src="/assets/team-members.png" :alt="member.name" class="team-photo" />
+            </div>
+            <div class="team-body">
+              <h3 class="team-name">{{ member.name }}</h3>
+              <p class="team-desc">{{ member.description }}</p>
+              <a href="#" class="team-link">
+                More Details
+                <i data-lucide="chevron-right" class="link-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 </template>
@@ -39,24 +52,38 @@
 <script setup>
 import { onMounted } from 'vue'
 
-const teamSections = [
+const teamMembers = [
   {
-    title: 'Founding Partners',
-    members: [
-      { name: 'Ahmed Mohammed', role: 'Founding Partner - Lawyer', image: '' },
-      { name: 'Sarah Khalid', role: 'Founding Partner - Legal Consultant', image: '' },
-      { name: 'Fahad Abdullah', role: 'Partner - Cassation Lawyer', image: '' },
-      { name: 'Noura Al-Saad', role: 'Partner - Arbitration Specialist', image: '' }
-    ]
+    name: 'Attorney Abdullah bin Mohammed Al-Fadhli',
+    description: 'A lawyer and legal consultant specializing in commercial cases and contract drafting, with hands-on experience representing companies and individuals.'
   },
   {
-    title: 'Legal Team',
-    members: [
-      { name: 'Khalid Al-Otaibi', role: 'Senior Lawyer', image: '' },
-      { name: 'Reem Al-Qahtani', role: 'Lawyer - Commercial Cases', image: '' },
-      { name: 'Mohammed Al-Shammari', role: 'Lawyer - Criminal Cases', image: '' },
-      { name: 'Layla Al-Harbi', role: 'Lawyer - Labor Cases', image: '' }
-    ]
+    name: 'Attorney Fahad bin Saud Al-Otaibi',
+    description: 'Specialized in litigation and court representation, with experience in civil cases and various legal disputes.'
+  },
+  {
+    name: 'Legal Advisor Ahmed bin Khaled Al-Harbi',
+    description: 'A corporate legal advisor specializing in commercial regulations, providing well-considered legal solutions that support business growth.'
+  },
+  {
+    name: 'Attorney Fahad bin Saud Al-Otaibi',
+    description: 'Specialized in litigation and court representation, with experience in civil cases and various legal disputes.'
+  },
+  {
+    name: 'Attorney Abdullah bin Mohammed Al-Fadhli',
+    description: 'A lawyer and legal consultant specializing in commercial cases and contract drafting, with hands-on experience representing companies and individuals.'
+  },
+  {
+    name: 'Attorney Fahad bin Saud Al-Otaibi',
+    description: 'Specialized in litigation and court representation, with experience in civil cases and various legal disputes.'
+  },
+  {
+    name: 'Legal Advisor Ahmed bin Khaled Al-Harbi',
+    description: 'A corporate legal advisor specializing in commercial regulations, providing well-considered legal solutions that support business growth.'
+  },
+  {
+    name: 'Attorney Fahad bin Saud Al-Otaibi',
+    description: 'Specialized in litigation and court representation, with experience in civil cases and various legal disputes.'
   }
 ]
 
@@ -70,100 +97,106 @@ onMounted(() => {
 <style scoped>
 .team-grid-section {
   background-color: #ffffff;
+  padding: 70px 0 90px;
 }
 
-.mb-100 {
-  margin-bottom: 100px;
-}
-
-.team-section:last-child {
-  margin-bottom: 0;
-}
-
-.section-v3-title {
-  color: #1a2b4b;
+.section-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.2rem;
   font-weight: 800;
-  font-size: 1.75rem;
-}
-
-.view-all-link {
   color: #1a2b4b;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1rem;
-  transition: color 0.3s ease;
 }
 
-.view-all-link:hover {
-  color: #c3a46e;
-}
-
-.team-v2-card {
-  background-color: #fcf8f3;
-  border-radius: 35px;
-  padding: 40px 30px;
+/* ── Card ── */
+.team-card {
+  background-color: transparent;
+  border: 1px solid #eeebe6;
+  border-radius: 20px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.team-v2-card:hover {
-  transform: translateY(-10px);
-  border-color: #c3a46e;
-  background-color: #ffffff;
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
-.member-image-wrapper {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: #ffffff;
-  border: 2px solid #c3a46e;
+/* Featured first card — cream background */
+.team-card--featured {
+  background-color: #f9f5ef;
+  border-color: transparent;
+}
+
+/* ── Photo ── */
+.team-photo-wrap {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  padding-top: 28px;
+}
+
+.team-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  background-color: #dde4ef;
+}
+
+/* ── Body ── */
+.team-body {
+  padding: 18px 20px 22px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+
+.team-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a2b4b;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.team-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  color: #5a5a5a;
+  line-height: 1.75;
+  margin-bottom: 14px;
+  flex: 1;
+}
+
+.team-link {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-}
-
-.member-image-placeholder .icon-gold {
+  gap: 3px;
   color: #c3a46e;
-  width: 50px;
-  height: 50px;
-}
-
-.member-v2-title {
-  color: #1a2b4b;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-bottom: 10px;
-}
-
-.member-v2-role {
-  color: #c3a46e;
-  font-size: 1rem;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  margin-bottom: 20px;
+  font-size: 0.82rem;
+  transition: gap 0.2s ease;
 }
 
-.social-links-v2 {
-  display: flex;
-  gap: 15px;
+.team-link:hover {
+  gap: 7px;
 }
 
-.social-link-v2 {
-  color: #1a2b4b;
-  transition: color 0.3s ease;
+.link-icon {
+  width: 14px;
+  height: 14px;
 }
 
-.social-link-v2:hover {
-  color: #c3a46e;
-}
-
-.social-link-v2 i {
-  width: 20px;
-  height: 20px;
+@media (max-width: 575px) {
+  .section-title { font-size: 1.6rem; }
+  .team-photo { width: 70px; height: 70px; }
 }
 </style>

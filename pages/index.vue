@@ -228,14 +228,85 @@
         <!-- Step 2d: Team Page Selection -->
         <div v-else-if="selectedCategory === 'team' && !selectedTheme" key="step-team">
           <h1 class="main-title">Team Pages</h1>
-          <p class="subtitle">Team page versions coming soon</p>
+          <p class="subtitle">Choose a Team page version</p>
 
           <div class="row g-4 mt-4 justify-content-center">
-            <div class="col-12 text-center py-5">
-              <div class="icon-box light mb-3 mx-auto">
-                <i data-lucide="users"></i>
+            <!-- Team 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'team/team-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="users"></i>
+                </div>
+                <div class="content">
+                  <h3>Team 1</h3>
+                  <span>Our Team Page</span>
+                </div>
               </div>
-              <p class="text-white opacity-75">Team page versions will be added here soon.</p>
+            </div>
+
+            <!-- Team 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'team/team-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="users"></i>
+                </div>
+                <div class="content">
+                  <h3>Team 2</h3>
+                  <span>Our Team Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Team 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'team/team-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="users"></i>
+                </div>
+                <div class="content">
+                  <h3>Team 3</h3>
+                  <span>Our Team Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lawyer Details 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'team/lawyer-details-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="user-check"></i>
+                </div>
+                <div class="content">
+                  <h3>Lawyer Details 1</h3>
+                  <span>Lawyer Profile Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lawyer Details 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'team/lawyer-details-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="user-check"></i>
+                </div>
+                <div class="content">
+                  <h3>Lawyer Details 2</h3>
+                  <span>Lawyer Profile Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lawyer Details 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'team/lawyer-details-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="user-check"></i>
+                </div>
+                <div class="content">
+                  <h3>Lawyer Details 3</h3>
+                  <span>Lawyer Profile Page</span>
+                </div>
+              </div>
             </div>
           </div>
 

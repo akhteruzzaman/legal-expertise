@@ -124,6 +124,48 @@ interface _GlobalComponents {
   Landing4TestimonialsEn: typeof import("../../components/landing-4/TestimonialsEn.vue")['default']
   Landing4WhyUs: typeof import("../../components/landing-4/WhyUs.vue")['default']
   Landing4WhyUsEn: typeof import("../../components/landing-4/WhyUsEn.vue")['default']
+  LawyerDetails1BreadcrumbAr: typeof import("../../components/lawyer-details-1/BreadcrumbAr.vue")['default']
+  LawyerDetails1BreadcrumbEn: typeof import("../../components/lawyer-details-1/BreadcrumbEn.vue")['default']
+  LawyerDetails1CTAAr: typeof import("../../components/lawyer-details-1/CTAAr.vue")['default']
+  LawyerDetails1CTAEn: typeof import("../../components/lawyer-details-1/CTAEn.vue")['default']
+  LawyerDetails1FooterAr: typeof import("../../components/lawyer-details-1/FooterAr.vue")['default']
+  LawyerDetails1FooterEn: typeof import("../../components/lawyer-details-1/FooterEn.vue")['default']
+  LawyerDetails1HeroAr: typeof import("../../components/lawyer-details-1/HeroAr.vue")['default']
+  LawyerDetails1HeroEn: typeof import("../../components/lawyer-details-1/HeroEn.vue")['default']
+  LawyerDetails1LawyerDetailsAr: typeof import("../../components/lawyer-details-1/LawyerDetailsAr.vue")['default']
+  LawyerDetails1LawyerDetailsEn: typeof import("../../components/lawyer-details-1/LawyerDetailsEn.vue")['default']
+  LawyerDetails1LawyerProfileAr: typeof import("../../components/lawyer-details-1/LawyerProfileAr.vue")['default']
+  LawyerDetails1LawyerProfileEn: typeof import("../../components/lawyer-details-1/LawyerProfileEn.vue")['default']
+  LawyerDetails1TeamGridAr: typeof import("../../components/lawyer-details-1/TeamGridAr.vue")['default']
+  LawyerDetails1TeamGridEn: typeof import("../../components/lawyer-details-1/TeamGridEn.vue")['default']
+  LawyerDetails2BreadcrumbAr: typeof import("../../components/lawyer-details-2/BreadcrumbAr.vue")['default']
+  LawyerDetails2BreadcrumbEn: typeof import("../../components/lawyer-details-2/BreadcrumbEn.vue")['default']
+  LawyerDetails2CTAAr: typeof import("../../components/lawyer-details-2/CTAAr.vue")['default']
+  LawyerDetails2CTAEn: typeof import("../../components/lawyer-details-2/CTAEn.vue")['default']
+  LawyerDetails2FooterAr: typeof import("../../components/lawyer-details-2/FooterAr.vue")['default']
+  LawyerDetails2FooterEn: typeof import("../../components/lawyer-details-2/FooterEn.vue")['default']
+  LawyerDetails2HeroAr: typeof import("../../components/lawyer-details-2/HeroAr.vue")['default']
+  LawyerDetails2HeroEn: typeof import("../../components/lawyer-details-2/HeroEn.vue")['default']
+  LawyerDetails2LawyerDetailsAr: typeof import("../../components/lawyer-details-2/LawyerDetailsAr.vue")['default']
+  LawyerDetails2LawyerDetailsEn: typeof import("../../components/lawyer-details-2/LawyerDetailsEn.vue")['default']
+  LawyerDetails2LawyerProfileAr: typeof import("../../components/lawyer-details-2/LawyerProfileAr.vue")['default']
+  LawyerDetails2LawyerProfileEn: typeof import("../../components/lawyer-details-2/LawyerProfileEn.vue")['default']
+  LawyerDetails2TeamGridAr: typeof import("../../components/lawyer-details-2/TeamGridAr.vue")['default']
+  LawyerDetails2TeamGridEn: typeof import("../../components/lawyer-details-2/TeamGridEn.vue")['default']
+  LawyerDetails3BreadcrumbAr: typeof import("../../components/lawyer-details-3/BreadcrumbAr.vue")['default']
+  LawyerDetails3BreadcrumbEn: typeof import("../../components/lawyer-details-3/BreadcrumbEn.vue")['default']
+  LawyerDetails3CTAAr: typeof import("../../components/lawyer-details-3/CTAAr.vue")['default']
+  LawyerDetails3CTAEn: typeof import("../../components/lawyer-details-3/CTAEn.vue")['default']
+  LawyerDetails3FooterAr: typeof import("../../components/lawyer-details-3/FooterAr.vue")['default']
+  LawyerDetails3FooterEn: typeof import("../../components/lawyer-details-3/FooterEn.vue")['default']
+  LawyerDetails3HeroAr: typeof import("../../components/lawyer-details-3/HeroAr.vue")['default']
+  LawyerDetails3HeroEn: typeof import("../../components/lawyer-details-3/HeroEn.vue")['default']
+  LawyerDetails3LawyerDetailsAr: typeof import("../../components/lawyer-details-3/LawyerDetailsAr.vue")['default']
+  LawyerDetails3LawyerDetailsEn: typeof import("../../components/lawyer-details-3/LawyerDetailsEn.vue")['default']
+  LawyerDetails3LawyerProfileAr: typeof import("../../components/lawyer-details-3/LawyerProfileAr.vue")['default']
+  LawyerDetails3LawyerProfileEn: typeof import("../../components/lawyer-details-3/LawyerProfileEn.vue")['default']
+  LawyerDetails3TeamGridAr: typeof import("../../components/lawyer-details-3/TeamGridAr.vue")['default']
+  LawyerDetails3TeamGridEn: typeof import("../../components/lawyer-details-3/TeamGridEn.vue")['default']
   LightEnAccreditations: typeof import("../../components/light-en/Accreditations.vue")['default']
   LightEnBlog: typeof import("../../components/light-en/Blog.vue")['default']
   LightEnCTA: typeof import("../../components/light-en/CTA.vue")['default']
@@ -184,8 +226,28 @@ interface _GlobalComponents {
   Team1CTAEn: typeof import("../../components/team-1/CTAEn.vue")['default']
   Team1FooterAr: typeof import("../../components/team-1/FooterAr.vue")['default']
   Team1FooterEn: typeof import("../../components/team-1/FooterEn.vue")['default']
+  Team1HeroAr: typeof import("../../components/team-1/HeroAr.vue")['default']
+  Team1HeroEn: typeof import("../../components/team-1/HeroEn.vue")['default']
   Team1TeamGridAr: typeof import("../../components/team-1/TeamGridAr.vue")['default']
   Team1TeamGridEn: typeof import("../../components/team-1/TeamGridEn.vue")['default']
+  Team2CTAAr: typeof import("../../components/team-2/CTAAr.vue")['default']
+  Team2CTAEn: typeof import("../../components/team-2/CTAEn.vue")['default']
+  Team2FooterAr: typeof import("../../components/team-2/FooterAr.vue")['default']
+  Team2FooterEn: typeof import("../../components/team-2/FooterEn.vue")['default']
+  Team2HeroAr: typeof import("../../components/team-2/HeroAr.vue")['default']
+  Team2HeroEn: typeof import("../../components/team-2/HeroEn.vue")['default']
+  Team2TeamGridAr: typeof import("../../components/team-2/TeamGridAr.vue")['default']
+  Team2TeamGridEn: typeof import("../../components/team-2/TeamGridEn.vue")['default']
+  Team3CTAAr: typeof import("../../components/team-3/CTAAr.vue")['default']
+  Team3CTAEn: typeof import("../../components/team-3/CTAEn.vue")['default']
+  Team3FooterAr: typeof import("../../components/team-3/FooterAr.vue")['default']
+  Team3FooterEn: typeof import("../../components/team-3/FooterEn.vue")['default']
+  Team3HeaderAr: typeof import("../../components/team-3/HeaderAr.vue")['default']
+  Team3HeaderEn: typeof import("../../components/team-3/HeaderEn.vue")['default']
+  Team3HeroAr: typeof import("../../components/team-3/HeroAr.vue")['default']
+  Team3HeroEn: typeof import("../../components/team-3/HeroEn.vue")['default']
+  Team3TeamGridAr: typeof import("../../components/team-3/TeamGridAr.vue")['default']
+  Team3TeamGridEn: typeof import("../../components/team-3/TeamGridEn.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   NuxtErrorBoundary: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -319,6 +381,48 @@ interface _GlobalComponents {
   LazyLanding4TestimonialsEn: LazyComponent<typeof import("../../components/landing-4/TestimonialsEn.vue")['default']>
   LazyLanding4WhyUs: LazyComponent<typeof import("../../components/landing-4/WhyUs.vue")['default']>
   LazyLanding4WhyUsEn: LazyComponent<typeof import("../../components/landing-4/WhyUsEn.vue")['default']>
+  LazyLawyerDetails1BreadcrumbAr: LazyComponent<typeof import("../../components/lawyer-details-1/BreadcrumbAr.vue")['default']>
+  LazyLawyerDetails1BreadcrumbEn: LazyComponent<typeof import("../../components/lawyer-details-1/BreadcrumbEn.vue")['default']>
+  LazyLawyerDetails1CTAAr: LazyComponent<typeof import("../../components/lawyer-details-1/CTAAr.vue")['default']>
+  LazyLawyerDetails1CTAEn: LazyComponent<typeof import("../../components/lawyer-details-1/CTAEn.vue")['default']>
+  LazyLawyerDetails1FooterAr: LazyComponent<typeof import("../../components/lawyer-details-1/FooterAr.vue")['default']>
+  LazyLawyerDetails1FooterEn: LazyComponent<typeof import("../../components/lawyer-details-1/FooterEn.vue")['default']>
+  LazyLawyerDetails1HeroAr: LazyComponent<typeof import("../../components/lawyer-details-1/HeroAr.vue")['default']>
+  LazyLawyerDetails1HeroEn: LazyComponent<typeof import("../../components/lawyer-details-1/HeroEn.vue")['default']>
+  LazyLawyerDetails1LawyerDetailsAr: LazyComponent<typeof import("../../components/lawyer-details-1/LawyerDetailsAr.vue")['default']>
+  LazyLawyerDetails1LawyerDetailsEn: LazyComponent<typeof import("../../components/lawyer-details-1/LawyerDetailsEn.vue")['default']>
+  LazyLawyerDetails1LawyerProfileAr: LazyComponent<typeof import("../../components/lawyer-details-1/LawyerProfileAr.vue")['default']>
+  LazyLawyerDetails1LawyerProfileEn: LazyComponent<typeof import("../../components/lawyer-details-1/LawyerProfileEn.vue")['default']>
+  LazyLawyerDetails1TeamGridAr: LazyComponent<typeof import("../../components/lawyer-details-1/TeamGridAr.vue")['default']>
+  LazyLawyerDetails1TeamGridEn: LazyComponent<typeof import("../../components/lawyer-details-1/TeamGridEn.vue")['default']>
+  LazyLawyerDetails2BreadcrumbAr: LazyComponent<typeof import("../../components/lawyer-details-2/BreadcrumbAr.vue")['default']>
+  LazyLawyerDetails2BreadcrumbEn: LazyComponent<typeof import("../../components/lawyer-details-2/BreadcrumbEn.vue")['default']>
+  LazyLawyerDetails2CTAAr: LazyComponent<typeof import("../../components/lawyer-details-2/CTAAr.vue")['default']>
+  LazyLawyerDetails2CTAEn: LazyComponent<typeof import("../../components/lawyer-details-2/CTAEn.vue")['default']>
+  LazyLawyerDetails2FooterAr: LazyComponent<typeof import("../../components/lawyer-details-2/FooterAr.vue")['default']>
+  LazyLawyerDetails2FooterEn: LazyComponent<typeof import("../../components/lawyer-details-2/FooterEn.vue")['default']>
+  LazyLawyerDetails2HeroAr: LazyComponent<typeof import("../../components/lawyer-details-2/HeroAr.vue")['default']>
+  LazyLawyerDetails2HeroEn: LazyComponent<typeof import("../../components/lawyer-details-2/HeroEn.vue")['default']>
+  LazyLawyerDetails2LawyerDetailsAr: LazyComponent<typeof import("../../components/lawyer-details-2/LawyerDetailsAr.vue")['default']>
+  LazyLawyerDetails2LawyerDetailsEn: LazyComponent<typeof import("../../components/lawyer-details-2/LawyerDetailsEn.vue")['default']>
+  LazyLawyerDetails2LawyerProfileAr: LazyComponent<typeof import("../../components/lawyer-details-2/LawyerProfileAr.vue")['default']>
+  LazyLawyerDetails2LawyerProfileEn: LazyComponent<typeof import("../../components/lawyer-details-2/LawyerProfileEn.vue")['default']>
+  LazyLawyerDetails2TeamGridAr: LazyComponent<typeof import("../../components/lawyer-details-2/TeamGridAr.vue")['default']>
+  LazyLawyerDetails2TeamGridEn: LazyComponent<typeof import("../../components/lawyer-details-2/TeamGridEn.vue")['default']>
+  LazyLawyerDetails3BreadcrumbAr: LazyComponent<typeof import("../../components/lawyer-details-3/BreadcrumbAr.vue")['default']>
+  LazyLawyerDetails3BreadcrumbEn: LazyComponent<typeof import("../../components/lawyer-details-3/BreadcrumbEn.vue")['default']>
+  LazyLawyerDetails3CTAAr: LazyComponent<typeof import("../../components/lawyer-details-3/CTAAr.vue")['default']>
+  LazyLawyerDetails3CTAEn: LazyComponent<typeof import("../../components/lawyer-details-3/CTAEn.vue")['default']>
+  LazyLawyerDetails3FooterAr: LazyComponent<typeof import("../../components/lawyer-details-3/FooterAr.vue")['default']>
+  LazyLawyerDetails3FooterEn: LazyComponent<typeof import("../../components/lawyer-details-3/FooterEn.vue")['default']>
+  LazyLawyerDetails3HeroAr: LazyComponent<typeof import("../../components/lawyer-details-3/HeroAr.vue")['default']>
+  LazyLawyerDetails3HeroEn: LazyComponent<typeof import("../../components/lawyer-details-3/HeroEn.vue")['default']>
+  LazyLawyerDetails3LawyerDetailsAr: LazyComponent<typeof import("../../components/lawyer-details-3/LawyerDetailsAr.vue")['default']>
+  LazyLawyerDetails3LawyerDetailsEn: LazyComponent<typeof import("../../components/lawyer-details-3/LawyerDetailsEn.vue")['default']>
+  LazyLawyerDetails3LawyerProfileAr: LazyComponent<typeof import("../../components/lawyer-details-3/LawyerProfileAr.vue")['default']>
+  LazyLawyerDetails3LawyerProfileEn: LazyComponent<typeof import("../../components/lawyer-details-3/LawyerProfileEn.vue")['default']>
+  LazyLawyerDetails3TeamGridAr: LazyComponent<typeof import("../../components/lawyer-details-3/TeamGridAr.vue")['default']>
+  LazyLawyerDetails3TeamGridEn: LazyComponent<typeof import("../../components/lawyer-details-3/TeamGridEn.vue")['default']>
   LazyLightEnAccreditations: LazyComponent<typeof import("../../components/light-en/Accreditations.vue")['default']>
   LazyLightEnBlog: LazyComponent<typeof import("../../components/light-en/Blog.vue")['default']>
   LazyLightEnCTA: LazyComponent<typeof import("../../components/light-en/CTA.vue")['default']>
@@ -379,8 +483,28 @@ interface _GlobalComponents {
   LazyTeam1CTAEn: LazyComponent<typeof import("../../components/team-1/CTAEn.vue")['default']>
   LazyTeam1FooterAr: LazyComponent<typeof import("../../components/team-1/FooterAr.vue")['default']>
   LazyTeam1FooterEn: LazyComponent<typeof import("../../components/team-1/FooterEn.vue")['default']>
+  LazyTeam1HeroAr: LazyComponent<typeof import("../../components/team-1/HeroAr.vue")['default']>
+  LazyTeam1HeroEn: LazyComponent<typeof import("../../components/team-1/HeroEn.vue")['default']>
   LazyTeam1TeamGridAr: LazyComponent<typeof import("../../components/team-1/TeamGridAr.vue")['default']>
   LazyTeam1TeamGridEn: LazyComponent<typeof import("../../components/team-1/TeamGridEn.vue")['default']>
+  LazyTeam2CTAAr: LazyComponent<typeof import("../../components/team-2/CTAAr.vue")['default']>
+  LazyTeam2CTAEn: LazyComponent<typeof import("../../components/team-2/CTAEn.vue")['default']>
+  LazyTeam2FooterAr: LazyComponent<typeof import("../../components/team-2/FooterAr.vue")['default']>
+  LazyTeam2FooterEn: LazyComponent<typeof import("../../components/team-2/FooterEn.vue")['default']>
+  LazyTeam2HeroAr: LazyComponent<typeof import("../../components/team-2/HeroAr.vue")['default']>
+  LazyTeam2HeroEn: LazyComponent<typeof import("../../components/team-2/HeroEn.vue")['default']>
+  LazyTeam2TeamGridAr: LazyComponent<typeof import("../../components/team-2/TeamGridAr.vue")['default']>
+  LazyTeam2TeamGridEn: LazyComponent<typeof import("../../components/team-2/TeamGridEn.vue")['default']>
+  LazyTeam3CTAAr: LazyComponent<typeof import("../../components/team-3/CTAAr.vue")['default']>
+  LazyTeam3CTAEn: LazyComponent<typeof import("../../components/team-3/CTAEn.vue")['default']>
+  LazyTeam3FooterAr: LazyComponent<typeof import("../../components/team-3/FooterAr.vue")['default']>
+  LazyTeam3FooterEn: LazyComponent<typeof import("../../components/team-3/FooterEn.vue")['default']>
+  LazyTeam3HeaderAr: LazyComponent<typeof import("../../components/team-3/HeaderAr.vue")['default']>
+  LazyTeam3HeaderEn: LazyComponent<typeof import("../../components/team-3/HeaderEn.vue")['default']>
+  LazyTeam3HeroAr: LazyComponent<typeof import("../../components/team-3/HeroAr.vue")['default']>
+  LazyTeam3HeroEn: LazyComponent<typeof import("../../components/team-3/HeroEn.vue")['default']>
+  LazyTeam3TeamGridAr: LazyComponent<typeof import("../../components/team-3/TeamGridAr.vue")['default']>
+  LazyTeam3TeamGridEn: LazyComponent<typeof import("../../components/team-3/TeamGridEn.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   LazyNuxtErrorBoundary: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
