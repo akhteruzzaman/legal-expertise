@@ -2,7 +2,7 @@
   <div class="light-version">
     <HeaderAr />
     <HeroAr />
-    <ServicesGridAr />
+    <TeamGridAr />
     <CTAAr />
     <FooterAr />
   </div>
@@ -12,12 +12,12 @@
 import { onMounted } from 'vue'
 import HeaderAr from '@/components/shared-landing-4/HeaderAr.vue'
 import HeroAr from '@/components/shared-landing-4/HeroAr.vue'
-import ServicesGridAr from '@/components/services-2/ServicesGridAr.vue'
-import CTAAr from '@/components/services-2/CTAAr.vue'
-import FooterAr from '@/components/services-2/FooterAr.vue'
+import TeamGridAr from '@/components/team-1/TeamGridAr.vue'
+import CTAAr from '@/components/team-1/CTAAr.vue'
+import FooterAr from '@/components/team-1/FooterAr.vue'
 
 useHead({
-  title: 'خدماتنا 2 | مكتب الرياض للمحاماة',
+  title: 'فريق العمل | مكتب الرياض للمحاماة',
   htmlAttrs: {
     lang: 'ar',
     dir: 'rtl'

@@ -2,7 +2,7 @@
   <div class="light-version">
     <HeaderEn />
     <HeroEn />
-    <ServicesGridEn />
+    <TeamGridEn />
     <CTAEn />
     <FooterEn />
   </div>
@@ -12,12 +12,12 @@
 import { onMounted } from 'vue'
 import HeaderEn from '@/components/shared-landing-4/HeaderEn.vue'
 import HeroEn from '@/components/shared-landing-4/HeroEn.vue'
-import ServicesGridEn from '@/components/services-3/ServicesGridEn.vue'
-import CTAEn from '@/components/services-3/CTAEn.vue'
-import FooterEn from '@/components/services-3/FooterEn.vue'
+import TeamGridEn from '@/components/team-1/TeamGridEn.vue'
+import CTAEn from '@/components/team-1/CTAEn.vue'
+import FooterEn from '@/components/team-1/FooterEn.vue'
 
 useHead({
-  title: 'Services 3 | Al Riyadh Law Firm',
+  title: 'Our Team | Al Riyadh Law Firm',
   htmlAttrs: {
     lang: 'en',
     dir: 'ltr'

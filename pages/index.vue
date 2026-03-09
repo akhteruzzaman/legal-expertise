@@ -50,6 +50,18 @@
                 </div>
               </div>
             </div>
+            <!-- Team -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedCategory = 'team'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="users"></i>
+                </div>
+                <div class="content">
+                  <h3>Team</h3>
+                  <span>Our Team Pages</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -213,6 +225,28 @@
           </div>
         </div>
 
+        <!-- Step 2d: Team Page Selection -->
+        <div v-else-if="selectedCategory === 'team' && !selectedTheme" key="step-team">
+          <h1 class="main-title">Team Pages</h1>
+          <p class="subtitle">Team page versions coming soon</p>
+
+          <div class="row g-4 mt-4 justify-content-center">
+            <div class="col-12 text-center py-5">
+              <div class="icon-box light mb-3 mx-auto">
+                <i data-lucide="users"></i>
+              </div>
+              <p class="text-white opacity-75">Team page versions will be added here soon.</p>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <button @click="selectedCategory = null" class="btn-back">
+              <i data-lucide="arrow-left"></i>
+              Back to Sections
+            </button>
+          </div>
+        </div>
+
         <!-- Step 2b: Theme Selection (Only for Home) -->
         <div v-else-if="selectedCategory === 'home' && !selectedTheme" key="step1">
           <h1 class="main-title">Choose Your Version</h1>
@@ -313,7 +347,8 @@
           </h1>
           <h1 class="main-title" v-else>
             {{ selectedTheme.startsWith('about/about-') ? 'About ' + selectedTheme.split('-')[1] : 
-               selectedTheme.startsWith('services/services-') ? 'Services ' + selectedTheme.split('-')[1] : 'Pages' }}
+               selectedTheme.startsWith('services/services-') ? 'Services ' + selectedTheme.split('-')[1] : 
+               selectedTheme.startsWith('team/team-') ? 'Team ' + selectedTheme.split('-')[1] : 'Pages' }}
           </h1>
           <p class="subtitle">Select your preferred language</p>
 
@@ -349,7 +384,8 @@
             <button @click="goBackFromLanguage" class="btn-back">
               <i data-lucide="arrow-left"></i>
               {{ selectedCategory === 'home' ? 'Back to Versions' : 
-                 selectedCategory === 'about' ? 'Back to About Pages' : 'Back to Services Pages' }}
+                 selectedCategory === 'about' ? 'Back to About Pages' : 
+                 selectedCategory === 'team' ? 'Back to Team Pages' : 'Back to Services Pages' }}
             </button>
           </div>
         </div>
@@ -365,7 +401,7 @@ const selectedCategory = ref(null)
 const selectedTheme = ref(null)
 
 const goBackFromLanguage = () => {
-  if (selectedCategory.value === 'about' || selectedCategory.value === 'services') {
+  if (selectedCategory.value === 'about' || selectedCategory.value === 'services' || selectedCategory.value === 'team') {
     // Go back to version selection
     selectedTheme.value = null
   } else {

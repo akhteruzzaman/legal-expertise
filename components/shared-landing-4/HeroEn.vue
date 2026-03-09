@@ -1,25 +1,36 @@
 <template>
   <div class="hero-outer-wrapper">
     <section class="landing-2-hero">
-      <div class="hero-overlay"></div>
+      <div class="watermark-pattern"></div>
       <div class="container hero-container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-10">
-            <h1 class="hero-title animate-up">Reliable Legal Expertise<br>to Protect Your Rights</h1>
+            <h1 class="hero-title animate-up">
+              <span class="text-gold">Reliable Legal Services</span><br>
+              <span class="text-white">with High Professionalism</span>
+            </h1>
             <p class="hero-subtitle animate-up-delayed">
-              We provide professional legal services for individuals and companies,<br>
-              based on experience, integrity, and full commitment to the highest<br>
-              professional standards.
+              We provide integrated legal services and consultations for individuals and companies in the Kingdom of Saudi Arabia, according to the highest professional standards and in compliance with applicable regulations.
             </p>
-            <div class="hero-actions animate-up-more-delayed">
-              <a href="#" class="btn-hero-centered">Request Legal Consultation</a>
-            </div>
           </div>
         </div>
       </div>
     </section>
   </div>
 </template>
+
+<script setup>
+defineProps({
+  title: {
+    type: String,
+    default: ''
+  },
+  subtitle: {
+    type: String,
+    default: ''
+  }
+})
+</script>
 
 <style scoped>
 .hero-outer-wrapper {
@@ -33,20 +44,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('/assets/home-bg-light.jpg') no-repeat center center;
-  background-size: cover;
+  background-color: #1a2b4b; /* Solid color from Landing 3 */
   border-radius: 25px;
   overflow: hidden;
   padding-top: 80px;
 }
 
-.hero-overlay {
+.watermark-pattern {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180deg, rgba(16, 28, 59, 0.8) 0%, rgba(16, 28, 59, 0.95) 100%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background-image: url("/assets/bicon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.3;
+  filter: brightness(2.5) contrast(1.2);
+  pointer-events: none;
   z-index: 1;
 }
 
@@ -57,23 +74,34 @@
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 800;
-  line-height: 1.3;
-  margin-top: 60px;
-  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  margin-top: 40px;
+  margin-bottom: 2rem;
   letter-spacing: -0.5px;
-  color: #ffffff !important;
   text-align: center !important;
 }
 
+.text-gold {
+  color: #c3a46e !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
 .hero-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   line-height: 1.8;
   color: #ffffff !important;
   margin-bottom: 2.5rem;
   font-weight: 500;
   text-align: center !important;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
 }
 
 .btn-hero-centered {
@@ -120,12 +148,16 @@
 
 @media (max-width: 991px) {
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+  .hero-subtitle {
+    font-size: 1.1rem;
   }
   .hero-outer-wrapper {
     padding: 10px;
   }
   .landing-2-hero {
+    min-height: 60vh;
     border-radius: 20px;
   }
 }

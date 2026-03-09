@@ -1,7 +1,7 @@
 <template>
   <div class="light-version">
-    <Landing3Header />
-    <Landing3Hero />
+    <HeaderAr />
+    <HeroAr />
     <ServicesGridAr />
     <CTAAr />
     <FooterAr />
@@ -10,8 +10,8 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import Landing3Header from '@/components/landing-3/Header.vue'
-import Landing3Hero from '@/components/landing-3/Hero.vue'
+import HeaderAr from '@/components/shared-landing-4/HeaderAr.vue'
+import HeroAr from '@/components/shared-landing-4/HeroAr.vue'
 import ServicesGridAr from '@/components/services-3/ServicesGridAr.vue'
 import CTAAr from '@/components/services-3/CTAAr.vue'
 import FooterAr from '@/components/services-3/FooterAr.vue'

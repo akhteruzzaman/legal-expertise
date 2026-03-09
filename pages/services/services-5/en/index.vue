@@ -1,7 +1,7 @@
 <template>
   <div class="light-version">
-    <Landing3Header />
-    <Landing3Hero />
+    <HeaderEn />
+    <HeroEn />
     <ServicesGridEn />
     <CTAEn />
     <FooterEn />
@@ -10,8 +10,8 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import Landing3Header from '@/components/landing-3/HeaderEn.vue'
-import Landing3Hero from '@/components/landing-3/HeroEn.vue'
+import HeaderEn from '@/components/shared-landing-4/HeaderEn.vue'
+import HeroEn from '@/components/shared-landing-4/HeroEn.vue'
 import ServicesGridEn from '@/components/services-5/ServicesGridEn.vue'
 import CTAEn from '@/components/services-5/CTAEn.vue'
 import FooterEn from '@/components/services-5/FooterEn.vue'

@@ -176,6 +176,16 @@ interface _GlobalComponents {
   Services5FooterEn: typeof import("../../components/services-5/FooterEn.vue")['default']
   Services5ServicesGridAr: typeof import("../../components/services-5/ServicesGridAr.vue")['default']
   Services5ServicesGridEn: typeof import("../../components/services-5/ServicesGridEn.vue")['default']
+  SharedLanding4HeaderAr: typeof import("../../components/shared-landing-4/HeaderAr.vue")['default']
+  SharedLanding4HeaderEn: typeof import("../../components/shared-landing-4/HeaderEn.vue")['default']
+  SharedLanding4HeroAr: typeof import("../../components/shared-landing-4/HeroAr.vue")['default']
+  SharedLanding4HeroEn: typeof import("../../components/shared-landing-4/HeroEn.vue")['default']
+  Team1CTAAr: typeof import("../../components/team-1/CTAAr.vue")['default']
+  Team1CTAEn: typeof import("../../components/team-1/CTAEn.vue")['default']
+  Team1FooterAr: typeof import("../../components/team-1/FooterAr.vue")['default']
+  Team1FooterEn: typeof import("../../components/team-1/FooterEn.vue")['default']
+  Team1TeamGridAr: typeof import("../../components/team-1/TeamGridAr.vue")['default']
+  Team1TeamGridEn: typeof import("../../components/team-1/TeamGridEn.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   NuxtErrorBoundary: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -361,6 +371,16 @@ interface _GlobalComponents {
   LazyServices5FooterEn: LazyComponent<typeof import("../../components/services-5/FooterEn.vue")['default']>
   LazyServices5ServicesGridAr: LazyComponent<typeof import("../../components/services-5/ServicesGridAr.vue")['default']>
   LazyServices5ServicesGridEn: LazyComponent<typeof import("../../components/services-5/ServicesGridEn.vue")['default']>
+  LazySharedLanding4HeaderAr: LazyComponent<typeof import("../../components/shared-landing-4/HeaderAr.vue")['default']>
+  LazySharedLanding4HeaderEn: LazyComponent<typeof import("../../components/shared-landing-4/HeaderEn.vue")['default']>
+  LazySharedLanding4HeroAr: LazyComponent<typeof import("../../components/shared-landing-4/HeroAr.vue")['default']>
+  LazySharedLanding4HeroEn: LazyComponent<typeof import("../../components/shared-landing-4/HeroEn.vue")['default']>
+  LazyTeam1CTAAr: LazyComponent<typeof import("../../components/team-1/CTAAr.vue")['default']>
+  LazyTeam1CTAEn: LazyComponent<typeof import("../../components/team-1/CTAEn.vue")['default']>
+  LazyTeam1FooterAr: LazyComponent<typeof import("../../components/team-1/FooterAr.vue")['default']>
+  LazyTeam1FooterEn: LazyComponent<typeof import("../../components/team-1/FooterEn.vue")['default']>
+  LazyTeam1TeamGridAr: LazyComponent<typeof import("../../components/team-1/TeamGridAr.vue")['default']>
+  LazyTeam1TeamGridEn: LazyComponent<typeof import("../../components/team-1/TeamGridEn.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   LazyNuxtErrorBoundary: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
