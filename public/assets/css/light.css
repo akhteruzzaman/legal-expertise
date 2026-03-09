@@ -60,7 +60,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    padding: 40px 0;
+    padding: 50px 0;
     background-color: var(--primary-light);
 }
 
@@ -155,7 +155,7 @@ body {
 
 /* Why Us Section */
 .why-us-section {
-    padding: 20px 0 30px;
+    padding: 50px 0;
     background-color: transparent;
 }
 
@@ -200,7 +200,7 @@ body {
 
 /* Services Section (Light) */
 .services-section {
-    padding: 40px 0 50px;
+    padding: 50px 0;
     background-color: var(--primary-light);
 }
 
@@ -275,13 +275,13 @@ body {
     }
 
     .hero-section {
-        padding: 40px 0;
+        padding: 50px 0;
     }
 }
 
 /* Team Section */
 .team-section {
-    padding: 40px 0 50px;
+    padding: 50px 0;
     background-color: var(--primary-light);
 }
 
@@ -363,7 +363,7 @@ body {
 
 /* Blog Section */
 .blog-section {
-    padding: 40px 0 50px;
+    padding: 50px 0;
     background-color: #ffffff;
 }
 
@@ -470,7 +470,7 @@ body {
 
 /* Accreditations Section */
 .accreditations-section {
-    padding: 40px 0 50px;
+    padding: 50px 0;
     background-color: #ffffff;
 }
 
@@ -540,7 +540,7 @@ body {
 
 /* Testimonials Section */
 .testimonials-section {
-    padding: 40px 0 50px;
+    padding: 50px 0;
     background-color: #ffffff;
 }
 
@@ -607,7 +607,7 @@ body {
 
 /* CTA Section */
 .cta-section {
-    padding: 40px 0 50px;
+    padding: 50px 0;
     background-color: #ffffff;
 }
 

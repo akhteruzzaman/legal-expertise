@@ -14,6 +14,32 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 interface _GlobalComponents {
+  About1HeroAr: typeof import("../../components/about-1/HeroAr.vue")['default']
+  About1HeroEn: typeof import("../../components/about-1/HeroEn.vue")['default']
+  About1MissionAr: typeof import("../../components/about-1/MissionAr.vue")['default']
+  About1MissionEn: typeof import("../../components/about-1/MissionEn.vue")['default']
+  About1WhyUsAr: typeof import("../../components/about-1/WhyUsAr.vue")['default']
+  About1WhyUsEn: typeof import("../../components/about-1/WhyUsEn.vue")['default']
+  About2HeroAr: typeof import("../../components/about-2/HeroAr.vue")['default']
+  About2HeroEn: typeof import("../../components/about-2/HeroEn.vue")['default']
+  About3HeroAr: typeof import("../../components/about-3/HeroAr.vue")['default']
+  About3HeroEn: typeof import("../../components/about-3/HeroEn.vue")['default']
+  About3WhyUsAr: typeof import("../../components/about-3/WhyUsAr.vue")['default']
+  About3WhyUsEn: typeof import("../../components/about-3/WhyUsEn.vue")['default']
+  About4HeroAr: typeof import("../../components/about-4/HeroAr.vue")['default']
+  About4HeroEn: typeof import("../../components/about-4/HeroEn.vue")['default']
+  About4MissionAr: typeof import("../../components/about-4/MissionAr.vue")['default']
+  About4MissionEn: typeof import("../../components/about-4/MissionEn.vue")['default']
+  About4WhyUsAr: typeof import("../../components/about-4/WhyUsAr.vue")['default']
+  About4WhyUsEn: typeof import("../../components/about-4/WhyUsEn.vue")['default']
+  About5HeaderAr: typeof import("../../components/about-5/HeaderAr.vue")['default']
+  About5HeaderEn: typeof import("../../components/about-5/HeaderEn.vue")['default']
+  About5HeroAr: typeof import("../../components/about-5/HeroAr.vue")['default']
+  About5HeroEn: typeof import("../../components/about-5/HeroEn.vue")['default']
+  About5MissionAr: typeof import("../../components/about-5/MissionAr.vue")['default']
+  About5MissionEn: typeof import("../../components/about-5/MissionEn.vue")['default']
+  About5WhyUsAr: typeof import("../../components/about-5/WhyUsAr.vue")['default']
+  About5WhyUsEn: typeof import("../../components/about-5/WhyUsEn.vue")['default']
   DarkEnAccreditations: typeof import("../../components/dark-en/Accreditations.vue")['default']
   DarkEnBlog: typeof import("../../components/dark-en/Blog.vue")['default']
   DarkEnCTA: typeof import("../../components/dark-en/CTA.vue")['default']
@@ -141,6 +167,32 @@ interface _GlobalComponents {
   Html: typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Html']
   Body: typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Body']
   NuxtIsland: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island")['default']
+  LazyAbout1HeroAr: LazyComponent<typeof import("../../components/about-1/HeroAr.vue")['default']>
+  LazyAbout1HeroEn: LazyComponent<typeof import("../../components/about-1/HeroEn.vue")['default']>
+  LazyAbout1MissionAr: LazyComponent<typeof import("../../components/about-1/MissionAr.vue")['default']>
+  LazyAbout1MissionEn: LazyComponent<typeof import("../../components/about-1/MissionEn.vue")['default']>
+  LazyAbout1WhyUsAr: LazyComponent<typeof import("../../components/about-1/WhyUsAr.vue")['default']>
+  LazyAbout1WhyUsEn: LazyComponent<typeof import("../../components/about-1/WhyUsEn.vue")['default']>
+  LazyAbout2HeroAr: LazyComponent<typeof import("../../components/about-2/HeroAr.vue")['default']>
+  LazyAbout2HeroEn: LazyComponent<typeof import("../../components/about-2/HeroEn.vue")['default']>
+  LazyAbout3HeroAr: LazyComponent<typeof import("../../components/about-3/HeroAr.vue")['default']>
+  LazyAbout3HeroEn: LazyComponent<typeof import("../../components/about-3/HeroEn.vue")['default']>
+  LazyAbout3WhyUsAr: LazyComponent<typeof import("../../components/about-3/WhyUsAr.vue")['default']>
+  LazyAbout3WhyUsEn: LazyComponent<typeof import("../../components/about-3/WhyUsEn.vue")['default']>
+  LazyAbout4HeroAr: LazyComponent<typeof import("../../components/about-4/HeroAr.vue")['default']>
+  LazyAbout4HeroEn: LazyComponent<typeof import("../../components/about-4/HeroEn.vue")['default']>
+  LazyAbout4MissionAr: LazyComponent<typeof import("../../components/about-4/MissionAr.vue")['default']>
+  LazyAbout4MissionEn: LazyComponent<typeof import("../../components/about-4/MissionEn.vue")['default']>
+  LazyAbout4WhyUsAr: LazyComponent<typeof import("../../components/about-4/WhyUsAr.vue")['default']>
+  LazyAbout4WhyUsEn: LazyComponent<typeof import("../../components/about-4/WhyUsEn.vue")['default']>
+  LazyAbout5HeaderAr: LazyComponent<typeof import("../../components/about-5/HeaderAr.vue")['default']>
+  LazyAbout5HeaderEn: LazyComponent<typeof import("../../components/about-5/HeaderEn.vue")['default']>
+  LazyAbout5HeroAr: LazyComponent<typeof import("../../components/about-5/HeroAr.vue")['default']>
+  LazyAbout5HeroEn: LazyComponent<typeof import("../../components/about-5/HeroEn.vue")['default']>
+  LazyAbout5MissionAr: LazyComponent<typeof import("../../components/about-5/MissionAr.vue")['default']>
+  LazyAbout5MissionEn: LazyComponent<typeof import("../../components/about-5/MissionEn.vue")['default']>
+  LazyAbout5WhyUsAr: LazyComponent<typeof import("../../components/about-5/WhyUsAr.vue")['default']>
+  LazyAbout5WhyUsEn: LazyComponent<typeof import("../../components/about-5/WhyUsEn.vue")['default']>
   LazyDarkEnAccreditations: LazyComponent<typeof import("../../components/dark-en/Accreditations.vue")['default']>
   LazyDarkEnBlog: LazyComponent<typeof import("../../components/dark-en/Blog.vue")['default']>
   LazyDarkEnCTA: LazyComponent<typeof import("../../components/dark-en/CTA.vue")['default']>

@@ -6,8 +6,122 @@
       </div>
       
       <Transition name="fade" mode="out-in">
-        <!-- Step 1: Theme Selection -->
-        <div v-if="!selectedTheme" key="step1">
+        <!-- Step 1: Category Selection -->
+        <div v-if="!selectedCategory" key="step0">
+          <h1 class="main-title">Select Section</h1>
+          <p class="subtitle">Choose which part of the site to visit</p>
+
+          <div class="row g-4 mt-4 justify-content-center">
+            <!-- Home -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedCategory = 'home'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="home"></i>
+                </div>
+                <div class="content">
+                  <h3>Home</h3>
+                  <span>Home Pages</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- About -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedCategory = 'about'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="info"></i>
+                </div>
+                <div class="content">
+                  <h3>About</h3>
+                  <span>About Us Pages</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2a: About Page Selection -->
+        <div v-else-if="selectedCategory === 'about' && !selectedTheme" key="step-about">
+          <h1 class="main-title">About Pages</h1>
+          <p class="subtitle">Choose an About page version</p>
+
+          <div class="row g-4 mt-4 justify-content-center">
+            <!-- About 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'about/about-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>About 1</h3>
+                  <span>About Us Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- About 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'about/about-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>About 2</h3>
+                  <span>About Us Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- About 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'about/about-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>About 3</h3>
+                  <span>About Us Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- About 4 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'about/about-4'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>About 4</h3>
+                  <span>About Us Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- About 5 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'about/about-5'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>About 5</h3>
+                  <span>About Us Page</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <button @click="selectedCategory = null" class="btn-back">
+              <i data-lucide="arrow-left"></i>
+              Back to Sections
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2b: Theme Selection (Only for Home) -->
+        <div v-else-if="selectedCategory === 'home' && !selectedTheme" key="step1">
           <h1 class="main-title">Choose Your Version</h1>
           <p class="subtitle">Select the theme for your Legal Law experience</p>
 
@@ -90,11 +204,23 @@
               </div>
             </div>
           </div>
+
+          <div class="mt-5">
+            <button @click="selectedCategory = null" class="btn-back">
+              <i data-lucide="arrow-left"></i>
+              Back to Sections
+            </button>
+          </div>
         </div>
 
-        <!-- Step 2: Language Selection -->
+        <!-- Step 3: Language Selection -->
         <div v-else key="step2">
-          <h1 class="main-title">{{ (selectedTheme === 'landing-page-5' || selectedTheme === 'landing-page-4' || selectedTheme === 'landing-page-3' || selectedTheme === 'landing-page-1' || selectedTheme === 'landing-page-2') ? 'Light Version' : 'Dark Version' }}</h1>
+          <h1 class="main-title" v-if="selectedCategory === 'home'">
+            {{ ['landing-page-dark'].includes(selectedTheme) ? 'Dark Version' : 'Light Version' }}
+          </h1>
+          <h1 class="main-title" v-else>
+            {{ selectedTheme.startsWith('about/about-') ? 'About ' + selectedTheme.split('-')[1] : 'About Pages' }}
+          </h1>
           <p class="subtitle">Select your preferred language</p>
 
           <div class="row g-4 mt-4 justify-content-center">
@@ -126,9 +252,9 @@
           </div>
 
           <div class="mt-5">
-            <button @click="selectedTheme = null" class="btn-back">
+            <button @click="goBackFromLanguage" class="btn-back">
               <i data-lucide="arrow-left"></i>
-              Back to Versions
+              {{ selectedCategory === 'home' ? 'Back to Versions' : 'Back to About Pages' }}
             </button>
           </div>
         </div>
@@ -140,7 +266,17 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue'
 
+const selectedCategory = ref(null)
 const selectedTheme = ref(null)
+
+const goBackFromLanguage = () => {
+  if (selectedCategory.value === 'about') {
+    // Go back to About page selection
+    selectedTheme.value = null
+  } else {
+    selectedTheme.value = null
+  }
+}
 
 useHead({
   title: 'Al Riyadh Law Firm | Version Selection',
@@ -163,7 +299,7 @@ onMounted(() => {
 })
 
 // Re-initialize icons when switching steps
-watch(selectedTheme, () => {
+watch([selectedCategory, selectedTheme], () => {
   setTimeout(initIcons, 50)
 })
 </script>
