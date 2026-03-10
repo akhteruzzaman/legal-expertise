@@ -5,7 +5,7 @@
         <div class="footer-content ">
           <div class="footer-top mb-5">
             <div class="d-flex justify-content-start align-items-center mb-4">
-              <img src="/assets/logo-light.png" alt="Logo" class="footer-logo">
+              <img src="/assets/logo-dark.png" alt="Logo" class="footer-logo">
             </div>
           </div>
           <div class="row g-4 footer-links-row">

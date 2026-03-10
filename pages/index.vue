@@ -75,6 +75,19 @@
                 </div>
               </div>
             </div>
+
+            <!-- Contact -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedCategory = 'contact'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="content">
+                  <h3>Contact</h3>
+                  <span>Contact Pages</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -476,6 +489,60 @@
           </div>
         </div>
 
+        <!-- Step 2f: Contact Page Selection -->
+        <div v-else-if="selectedCategory === 'contact' && !selectedTheme" key="step-contact">
+          <h1 class="main-title">Contact Pages</h1>
+          <p class="subtitle">Choose a Contact page version</p>
+
+          <div class="row g-4 mt-4 justify-content-center">
+            <!-- Contact 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'contact/contact-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="content">
+                  <h3>Contact 1</h3>
+                  <span>Contact Us Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'contact/contact-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="content">
+                  <h3>Contact 2</h3>
+                  <span>Contact Us Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'contact/contact-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="content">
+                  <h3>Contact 3</h3>
+                  <span>Contact Us Page</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <button @click="selectedCategory = null" class="btn-back">
+              <i data-lucide="arrow-left"></i>
+              Back to Sections
+            </button>
+          </div>
+        </div>
+
         <!-- Step 2b: Theme Selection (Only for Home) -->
         <div v-else-if="selectedCategory === 'home' && !selectedTheme" key="step1">
           <h1 class="main-title">Choose Your Version</h1>
@@ -579,7 +646,8 @@
                selectedTheme.startsWith('services/services-') ? 'Services ' + selectedTheme.split('-')[1] : 
                selectedTheme.startsWith('team/team-') ? 'Team ' + selectedTheme.split('-')[1] : 
                selectedTheme.startsWith('blog/blog-details-') ? 'Blog Details ' + selectedTheme.split('blog-details-')[1] : 
-               selectedTheme.startsWith('blog/blog-') ? 'Blog ' + selectedTheme.split('blog-')[1] : 'Pages' }}
+               selectedTheme.startsWith('blog/blog-') ? 'Blog ' + selectedTheme.split('blog-')[1] : 
+               selectedTheme.startsWith('contact/contact-') ? 'Contact ' + selectedTheme.split('contact-')[1] : 'Pages' }}
           </h1>
           <p class="subtitle">Select your preferred language</p>
 
@@ -617,7 +685,8 @@
               {{ selectedCategory === 'home' ? 'Back to Versions' : 
                  selectedCategory === 'about' ? 'Back to About Pages' : 
                  selectedCategory === 'team' ? 'Back to Team Pages' : 
-                 selectedCategory === 'blog' ? 'Back to Blog Pages' : 'Back to Services Pages' }}
+                 selectedCategory === 'blog' ? 'Back to Blog Pages' : 
+                 selectedCategory === 'contact' ? 'Back to Contact Pages' : 'Back to Services Pages' }}
             </button>
           </div>
         </div>
