@@ -88,6 +88,32 @@
                 </div>
               </div>
             </div>
+
+            <!-- Terms & Conditions -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedCategory = 'terms'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>Terms</h3>
+                  <span>Terms & Conditions</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Privacy Policy -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedCategory = 'privacy'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="shield"></i>
+                </div>
+                <div class="content">
+                  <h3>Privacy</h3>
+                  <span>Privacy Policy</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -535,6 +561,108 @@
             </div>
           </div>
 
+        </div>
+
+        <!-- Step 2g: Terms & Conditions Page Selection -->
+        <div v-else-if="selectedCategory === 'terms' && !selectedTheme" key="step-terms">
+          <h1 class="main-title">Terms & Conditions Pages</h1>
+          <p class="subtitle">Choose a Terms & Conditions version</p>
+
+          <div class="row g-4 mt-4 justify-content-center">
+            <!-- Terms 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'terms/terms-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>Terms 1</h3>
+                  <span>Terms & Conditions Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Terms 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'terms/terms-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>Terms 2</h3>
+                  <span>Terms & Conditions Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Terms 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'terms/terms-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="file-text"></i>
+                </div>
+                <div class="content">
+                  <h3>Terms 3</h3>
+                  <span>Terms & Conditions Page</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <button @click="selectedCategory = null" class="btn-back">
+              <i data-lucide="arrow-left"></i>
+              Back to Sections
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2h: Privacy Policy Page Selection -->
+        <div v-else-if="selectedCategory === 'privacy' && !selectedTheme" key="step-privacy">
+          <h1 class="main-title">Privacy Policy Pages</h1>
+          <p class="subtitle">Choose a Privacy Policy version</p>
+
+          <div class="row g-4 mt-4 justify-content-center">
+            <!-- Privacy 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'privacy/privacy-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="shield"></i>
+                </div>
+                <div class="content">
+                  <h3>Privacy 1</h3>
+                  <span>Privacy Policy Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Privacy 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'privacy/privacy-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="shield"></i>
+                </div>
+                <div class="content">
+                  <h3>Privacy 2</h3>
+                  <span>Privacy Policy Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Privacy 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'privacy/privacy-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="shield"></i>
+                </div>
+                <div class="content">
+                  <h3>Privacy 3</h3>
+                  <span>Privacy Policy Page</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="mt-5">
             <button @click="selectedCategory = null" class="btn-back">
               <i data-lucide="arrow-left"></i>
@@ -647,7 +775,8 @@
                selectedTheme.startsWith('team/team-') ? 'Team ' + selectedTheme.split('-')[1] : 
                selectedTheme.startsWith('blog/blog-details-') ? 'Blog Details ' + selectedTheme.split('blog-details-')[1] : 
                selectedTheme.startsWith('blog/blog-') ? 'Blog ' + selectedTheme.split('blog-')[1] : 
-               selectedTheme.startsWith('contact/contact-') ? 'Contact ' + selectedTheme.split('contact-')[1] : 'Pages' }}
+               selectedTheme.startsWith('contact/contact-') ? 'Contact ' + selectedTheme.split('contact-')[1] : 
+               selectedTheme.startsWith('privacy/privacy-') ? 'Privacy ' + selectedTheme.split('privacy-')[1] : 'Pages' }}
           </h1>
           <p class="subtitle">Select your preferred language</p>
 
@@ -685,8 +814,10 @@
               {{ selectedCategory === 'home' ? 'Back to Versions' : 
                  selectedCategory === 'about' ? 'Back to About Pages' : 
                  selectedCategory === 'team' ? 'Back to Team Pages' : 
-                 selectedCategory === 'blog' ? 'Back to Blog Pages' : 
-                 selectedCategory === 'contact' ? 'Back to Contact Pages' : 'Back to Services Pages' }}
+                  selectedCategory === 'blog' ? 'Back to Blog Pages' : 
+                  selectedCategory === 'privacy' ? 'Back to Privacy Pages' : 
+                  selectedCategory === 'terms' ? 'Back to Terms Pages' : 
+                  selectedCategory === 'contact' ? 'Back to Contact Pages' : 'Back to Services Pages' }}
             </button>
           </div>
         </div>

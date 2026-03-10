@@ -3,7 +3,7 @@
     <div class="container-fluid px-lg-5">
       <!-- Logo on the Left (English) -->
       <NuxtLink class="navbar-brand me-lg-4" to="/">
-        <img src="/assets/logo-dark.png" alt="Logo" class="logo-img">
+        <img src="/assets/logo-light.png" alt="Logo" class="logo-img">
       </NuxtLink>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

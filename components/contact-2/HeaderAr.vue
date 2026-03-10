@@ -4,7 +4,7 @@
       <!-- Logo on the Right (Arabic) -->
       <NuxtLink class="navbar-brand me-lg-4 ms-0" to="/">
         <div class="logo-with-text">
-          <img src="/assets/logo-dark.png" alt="Logo" class="logo-img">
+          <img src="/assets/logo-white-trasparent.png" alt="Logo" class="logo-img">
         </div>
       </NuxtLink>
 

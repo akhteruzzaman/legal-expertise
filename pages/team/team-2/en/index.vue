@@ -10,7 +10,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import HeaderEn from '@/components/shared-landing-4/HeaderEn.vue'
+import HeaderEn from '@/components/team-2/HeaderEn.vue'
 import HeroEn from '@/components/team-2/HeroEn.vue'
 import TeamGridEn from '@/components/team-2/TeamGridEn.vue'
 import CTAEn from '@/components/team-2/CTAEn.vue'

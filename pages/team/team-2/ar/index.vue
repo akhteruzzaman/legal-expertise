@@ -10,7 +10,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import HeaderAr from '@/components/shared-landing-4/HeaderAr.vue'
+import HeaderAr from '@/components/team-2/HeaderAr.vue'
 import HeroAr from '@/components/team-2/HeroAr.vue'
 import TeamGridAr from '@/components/team-2/TeamGridAr.vue'
 import CTAAr from '@/components/team-2/CTAAr.vue'

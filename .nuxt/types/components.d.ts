@@ -454,6 +454,84 @@ interface _GlobalComponents {
   LightTeam: typeof import("../../components/light/Team.vue")['default']
   LightTestimonials: typeof import("../../components/light/Testimonials.vue")['default']
   LightWhyUs: typeof import("../../components/light/WhyUs.vue")['default']
+  Privacy1BlogCTAAr: typeof import("../../components/privacy-1/BlogCTAAr.vue")['default']
+  Privacy1BlogCTAEn: typeof import("../../components/privacy-1/BlogCTAEn.vue")['default']
+  Privacy1BlogContentAr: typeof import("../../components/privacy-1/BlogContentAr.vue")['default']
+  Privacy1BlogContentEn: typeof import("../../components/privacy-1/BlogContentEn.vue")['default']
+  Privacy1BlogHeroAr: typeof import("../../components/privacy-1/BlogHeroAr.vue")['default']
+  Privacy1BlogHeroEn: typeof import("../../components/privacy-1/BlogHeroEn.vue")['default']
+  Privacy1BlogProfileAr: typeof import("../../components/privacy-1/BlogProfileAr.vue")['default']
+  Privacy1BlogProfileEn: typeof import("../../components/privacy-1/BlogProfileEn.vue")['default']
+  Privacy1BlogRelatedAr: typeof import("../../components/privacy-1/BlogRelatedAr.vue")['default']
+  Privacy1BlogRelatedEn: typeof import("../../components/privacy-1/BlogRelatedEn.vue")['default']
+  Privacy1BlogTermsAr: typeof import("../../components/privacy-1/BlogTermsAr.vue")['default']
+  Privacy1BlogTermsEn: typeof import("../../components/privacy-1/BlogTermsEn.vue")['default']
+  Privacy1BreadcrumbAr: typeof import("../../components/privacy-1/BreadcrumbAr.vue")['default']
+  Privacy1BreadcrumbEn: typeof import("../../components/privacy-1/BreadcrumbEn.vue")['default']
+  Privacy1ContactInfoAr: typeof import("../../components/privacy-1/ContactInfoAr.vue")['default']
+  Privacy1ContactInfoEn: typeof import("../../components/privacy-1/ContactInfoEn.vue")['default']
+  Privacy1FooterAr: typeof import("../../components/privacy-1/FooterAr.vue")['default']
+  Privacy1FooterEn: typeof import("../../components/privacy-1/FooterEn.vue")['default']
+  Privacy1HeaderAr: typeof import("../../components/privacy-1/HeaderAr.vue")['default']
+  Privacy1HeaderEn: typeof import("../../components/privacy-1/HeaderEn.vue")['default']
+  Privacy1HeroAr: typeof import("../../components/privacy-1/HeroAr.vue")['default']
+  Privacy1HeroEn: typeof import("../../components/privacy-1/HeroEn.vue")['default']
+  Privacy1PrivacyContentAr: typeof import("../../components/privacy-1/PrivacyContentAr.vue")['default']
+  Privacy1PrivacyContentEn: typeof import("../../components/privacy-1/PrivacyContentEn.vue")['default']
+  Privacy1RelatedPostsAr: typeof import("../../components/privacy-1/RelatedPostsAr.vue")['default']
+  Privacy1RelatedPostsEn: typeof import("../../components/privacy-1/RelatedPostsEn.vue")['default']
+  Privacy2BlogCTAAr: typeof import("../../components/privacy-2/BlogCTAAr.vue")['default']
+  Privacy2BlogCTAEn: typeof import("../../components/privacy-2/BlogCTAEn.vue")['default']
+  Privacy2BlogContentAr: typeof import("../../components/privacy-2/BlogContentAr.vue")['default']
+  Privacy2BlogContentEn: typeof import("../../components/privacy-2/BlogContentEn.vue")['default']
+  Privacy2BlogHeroAr: typeof import("../../components/privacy-2/BlogHeroAr.vue")['default']
+  Privacy2BlogHeroEn: typeof import("../../components/privacy-2/BlogHeroEn.vue")['default']
+  Privacy2BlogProfileAr: typeof import("../../components/privacy-2/BlogProfileAr.vue")['default']
+  Privacy2BlogProfileEn: typeof import("../../components/privacy-2/BlogProfileEn.vue")['default']
+  Privacy2BlogRelatedAr: typeof import("../../components/privacy-2/BlogRelatedAr.vue")['default']
+  Privacy2BlogRelatedEn: typeof import("../../components/privacy-2/BlogRelatedEn.vue")['default']
+  Privacy2BlogTermsAr: typeof import("../../components/privacy-2/BlogTermsAr.vue")['default']
+  Privacy2BlogTermsEn: typeof import("../../components/privacy-2/BlogTermsEn.vue")['default']
+  Privacy2BreadcrumbAr: typeof import("../../components/privacy-2/BreadcrumbAr.vue")['default']
+  Privacy2BreadcrumbEn: typeof import("../../components/privacy-2/BreadcrumbEn.vue")['default']
+  Privacy2ContactInfoAr: typeof import("../../components/privacy-2/ContactInfoAr.vue")['default']
+  Privacy2ContactInfoEn: typeof import("../../components/privacy-2/ContactInfoEn.vue")['default']
+  Privacy2FooterAr: typeof import("../../components/privacy-2/FooterAr.vue")['default']
+  Privacy2FooterEn: typeof import("../../components/privacy-2/FooterEn.vue")['default']
+  Privacy2HeaderAr: typeof import("../../components/privacy-2/HeaderAr.vue")['default']
+  Privacy2HeaderEn: typeof import("../../components/privacy-2/HeaderEn.vue")['default']
+  Privacy2HeroAr: typeof import("../../components/privacy-2/HeroAr.vue")['default']
+  Privacy2HeroEn: typeof import("../../components/privacy-2/HeroEn.vue")['default']
+  Privacy2PrivacyContentAr: typeof import("../../components/privacy-2/PrivacyContentAr.vue")['default']
+  Privacy2PrivacyContentEn: typeof import("../../components/privacy-2/PrivacyContentEn.vue")['default']
+  Privacy2RelatedPostsAr: typeof import("../../components/privacy-2/RelatedPostsAr.vue")['default']
+  Privacy2RelatedPostsEn: typeof import("../../components/privacy-2/RelatedPostsEn.vue")['default']
+  Privacy3BlogCTAAr: typeof import("../../components/privacy-3/BlogCTAAr.vue")['default']
+  Privacy3BlogCTAEn: typeof import("../../components/privacy-3/BlogCTAEn.vue")['default']
+  Privacy3BlogContentAr: typeof import("../../components/privacy-3/BlogContentAr.vue")['default']
+  Privacy3BlogContentEn: typeof import("../../components/privacy-3/BlogContentEn.vue")['default']
+  Privacy3BlogHeroAr: typeof import("../../components/privacy-3/BlogHeroAr.vue")['default']
+  Privacy3BlogHeroEn: typeof import("../../components/privacy-3/BlogHeroEn.vue")['default']
+  Privacy3BlogProfileAr: typeof import("../../components/privacy-3/BlogProfileAr.vue")['default']
+  Privacy3BlogProfileEn: typeof import("../../components/privacy-3/BlogProfileEn.vue")['default']
+  Privacy3BlogRelatedAr: typeof import("../../components/privacy-3/BlogRelatedAr.vue")['default']
+  Privacy3BlogRelatedEn: typeof import("../../components/privacy-3/BlogRelatedEn.vue")['default']
+  Privacy3BlogTermsAr: typeof import("../../components/privacy-3/BlogTermsAr.vue")['default']
+  Privacy3BlogTermsEn: typeof import("../../components/privacy-3/BlogTermsEn.vue")['default']
+  Privacy3BreadcrumbAr: typeof import("../../components/privacy-3/BreadcrumbAr.vue")['default']
+  Privacy3BreadcrumbEn: typeof import("../../components/privacy-3/BreadcrumbEn.vue")['default']
+  Privacy3ContactInfoAr: typeof import("../../components/privacy-3/ContactInfoAr.vue")['default']
+  Privacy3ContactInfoEn: typeof import("../../components/privacy-3/ContactInfoEn.vue")['default']
+  Privacy3FooterAr: typeof import("../../components/privacy-3/FooterAr.vue")['default']
+  Privacy3FooterEn: typeof import("../../components/privacy-3/FooterEn.vue")['default']
+  Privacy3HeaderAr: typeof import("../../components/privacy-3/HeaderAr.vue")['default']
+  Privacy3HeaderEn: typeof import("../../components/privacy-3/HeaderEn.vue")['default']
+  Privacy3HeroAr: typeof import("../../components/privacy-3/HeroAr.vue")['default']
+  Privacy3HeroEn: typeof import("../../components/privacy-3/HeroEn.vue")['default']
+  Privacy3PrivacyContentAr: typeof import("../../components/privacy-3/PrivacyContentAr.vue")['default']
+  Privacy3PrivacyContentEn: typeof import("../../components/privacy-3/PrivacyContentEn.vue")['default']
+  Privacy3RelatedPostsAr: typeof import("../../components/privacy-3/RelatedPostsAr.vue")['default']
+  Privacy3RelatedPostsEn: typeof import("../../components/privacy-3/RelatedPostsEn.vue")['default']
   Services1BreadcrumbAr: typeof import("../../components/services-1/BreadcrumbAr.vue")['default']
   Services1BreadcrumbEn: typeof import("../../components/services-1/BreadcrumbEn.vue")['default']
   Services1CTAAr: typeof import("../../components/services-1/CTAAr.vue")['default']
@@ -502,6 +580,8 @@ interface _GlobalComponents {
   Team2CTAEn: typeof import("../../components/team-2/CTAEn.vue")['default']
   Team2FooterAr: typeof import("../../components/team-2/FooterAr.vue")['default']
   Team2FooterEn: typeof import("../../components/team-2/FooterEn.vue")['default']
+  Team2HeaderAr: typeof import("../../components/team-2/HeaderAr.vue")['default']
+  Team2HeaderEn: typeof import("../../components/team-2/HeaderEn.vue")['default']
   Team2HeroAr: typeof import("../../components/team-2/HeroAr.vue")['default']
   Team2HeroEn: typeof import("../../components/team-2/HeroEn.vue")['default']
   Team2TeamGridAr: typeof import("../../components/team-2/TeamGridAr.vue")['default']
@@ -516,6 +596,84 @@ interface _GlobalComponents {
   Team3HeroEn: typeof import("../../components/team-3/HeroEn.vue")['default']
   Team3TeamGridAr: typeof import("../../components/team-3/TeamGridAr.vue")['default']
   Team3TeamGridEn: typeof import("../../components/team-3/TeamGridEn.vue")['default']
+  Terms1BlogCTAAr: typeof import("../../components/terms-1/BlogCTAAr.vue")['default']
+  Terms1BlogCTAEn: typeof import("../../components/terms-1/BlogCTAEn.vue")['default']
+  Terms1BlogContentAr: typeof import("../../components/terms-1/BlogContentAr.vue")['default']
+  Terms1BlogContentEn: typeof import("../../components/terms-1/BlogContentEn.vue")['default']
+  Terms1BlogHeroAr: typeof import("../../components/terms-1/BlogHeroAr.vue")['default']
+  Terms1BlogHeroEn: typeof import("../../components/terms-1/BlogHeroEn.vue")['default']
+  Terms1BlogProfileAr: typeof import("../../components/terms-1/BlogProfileAr.vue")['default']
+  Terms1BlogProfileEn: typeof import("../../components/terms-1/BlogProfileEn.vue")['default']
+  Terms1BlogRelatedAr: typeof import("../../components/terms-1/BlogRelatedAr.vue")['default']
+  Terms1BlogRelatedEn: typeof import("../../components/terms-1/BlogRelatedEn.vue")['default']
+  Terms1BlogTermsAr: typeof import("../../components/terms-1/BlogTermsAr.vue")['default']
+  Terms1BlogTermsEn: typeof import("../../components/terms-1/BlogTermsEn.vue")['default']
+  Terms1BreadcrumbAr: typeof import("../../components/terms-1/BreadcrumbAr.vue")['default']
+  Terms1BreadcrumbEn: typeof import("../../components/terms-1/BreadcrumbEn.vue")['default']
+  Terms1ContactInfoAr: typeof import("../../components/terms-1/ContactInfoAr.vue")['default']
+  Terms1ContactInfoEn: typeof import("../../components/terms-1/ContactInfoEn.vue")['default']
+  Terms1FooterAr: typeof import("../../components/terms-1/FooterAr.vue")['default']
+  Terms1FooterEn: typeof import("../../components/terms-1/FooterEn.vue")['default']
+  Terms1HeaderAr: typeof import("../../components/terms-1/HeaderAr.vue")['default']
+  Terms1HeaderEn: typeof import("../../components/terms-1/HeaderEn.vue")['default']
+  Terms1HeroAr: typeof import("../../components/terms-1/HeroAr.vue")['default']
+  Terms1HeroEn: typeof import("../../components/terms-1/HeroEn.vue")['default']
+  Terms1RelatedPostsAr: typeof import("../../components/terms-1/RelatedPostsAr.vue")['default']
+  Terms1RelatedPostsEn: typeof import("../../components/terms-1/RelatedPostsEn.vue")['default']
+  Terms1TermsContentAr: typeof import("../../components/terms-1/TermsContentAr.vue")['default']
+  Terms1TermsContentEn: typeof import("../../components/terms-1/TermsContentEn.vue")['default']
+  Terms2BlogCTAAr: typeof import("../../components/terms-2/BlogCTAAr.vue")['default']
+  Terms2BlogCTAEn: typeof import("../../components/terms-2/BlogCTAEn.vue")['default']
+  Terms2BlogContentAr: typeof import("../../components/terms-2/BlogContentAr.vue")['default']
+  Terms2BlogContentEn: typeof import("../../components/terms-2/BlogContentEn.vue")['default']
+  Terms2BlogHeroAr: typeof import("../../components/terms-2/BlogHeroAr.vue")['default']
+  Terms2BlogHeroEn: typeof import("../../components/terms-2/BlogHeroEn.vue")['default']
+  Terms2BlogProfileAr: typeof import("../../components/terms-2/BlogProfileAr.vue")['default']
+  Terms2BlogProfileEn: typeof import("../../components/terms-2/BlogProfileEn.vue")['default']
+  Terms2BlogRelatedAr: typeof import("../../components/terms-2/BlogRelatedAr.vue")['default']
+  Terms2BlogRelatedEn: typeof import("../../components/terms-2/BlogRelatedEn.vue")['default']
+  Terms2BlogTermsAr: typeof import("../../components/terms-2/BlogTermsAr.vue")['default']
+  Terms2BlogTermsEn: typeof import("../../components/terms-2/BlogTermsEn.vue")['default']
+  Terms2BreadcrumbAr: typeof import("../../components/terms-2/BreadcrumbAr.vue")['default']
+  Terms2BreadcrumbEn: typeof import("../../components/terms-2/BreadcrumbEn.vue")['default']
+  Terms2ContactInfoAr: typeof import("../../components/terms-2/ContactInfoAr.vue")['default']
+  Terms2ContactInfoEn: typeof import("../../components/terms-2/ContactInfoEn.vue")['default']
+  Terms2FooterAr: typeof import("../../components/terms-2/FooterAr.vue")['default']
+  Terms2FooterEn: typeof import("../../components/terms-2/FooterEn.vue")['default']
+  Terms2HeaderAr: typeof import("../../components/terms-2/HeaderAr.vue")['default']
+  Terms2HeaderEn: typeof import("../../components/terms-2/HeaderEn.vue")['default']
+  Terms2HeroAr: typeof import("../../components/terms-2/HeroAr.vue")['default']
+  Terms2HeroEn: typeof import("../../components/terms-2/HeroEn.vue")['default']
+  Terms2RelatedPostsAr: typeof import("../../components/terms-2/RelatedPostsAr.vue")['default']
+  Terms2RelatedPostsEn: typeof import("../../components/terms-2/RelatedPostsEn.vue")['default']
+  Terms2TermsContentAr: typeof import("../../components/terms-2/TermsContentAr.vue")['default']
+  Terms2TermsContentEn: typeof import("../../components/terms-2/TermsContentEn.vue")['default']
+  Terms3BlogCTAAr: typeof import("../../components/terms-3/BlogCTAAr.vue")['default']
+  Terms3BlogCTAEn: typeof import("../../components/terms-3/BlogCTAEn.vue")['default']
+  Terms3BlogContentAr: typeof import("../../components/terms-3/BlogContentAr.vue")['default']
+  Terms3BlogContentEn: typeof import("../../components/terms-3/BlogContentEn.vue")['default']
+  Terms3BlogHeroAr: typeof import("../../components/terms-3/BlogHeroAr.vue")['default']
+  Terms3BlogHeroEn: typeof import("../../components/terms-3/BlogHeroEn.vue")['default']
+  Terms3BlogProfileAr: typeof import("../../components/terms-3/BlogProfileAr.vue")['default']
+  Terms3BlogProfileEn: typeof import("../../components/terms-3/BlogProfileEn.vue")['default']
+  Terms3BlogRelatedAr: typeof import("../../components/terms-3/BlogRelatedAr.vue")['default']
+  Terms3BlogRelatedEn: typeof import("../../components/terms-3/BlogRelatedEn.vue")['default']
+  Terms3BlogTermsAr: typeof import("../../components/terms-3/BlogTermsAr.vue")['default']
+  Terms3BlogTermsEn: typeof import("../../components/terms-3/BlogTermsEn.vue")['default']
+  Terms3BreadcrumbAr: typeof import("../../components/terms-3/BreadcrumbAr.vue")['default']
+  Terms3BreadcrumbEn: typeof import("../../components/terms-3/BreadcrumbEn.vue")['default']
+  Terms3ContactInfoAr: typeof import("../../components/terms-3/ContactInfoAr.vue")['default']
+  Terms3ContactInfoEn: typeof import("../../components/terms-3/ContactInfoEn.vue")['default']
+  Terms3FooterAr: typeof import("../../components/terms-3/FooterAr.vue")['default']
+  Terms3FooterEn: typeof import("../../components/terms-3/FooterEn.vue")['default']
+  Terms3HeaderAr: typeof import("../../components/terms-3/HeaderAr.vue")['default']
+  Terms3HeaderEn: typeof import("../../components/terms-3/HeaderEn.vue")['default']
+  Terms3HeroAr: typeof import("../../components/terms-3/HeroAr.vue")['default']
+  Terms3HeroEn: typeof import("../../components/terms-3/HeroEn.vue")['default']
+  Terms3RelatedPostsAr: typeof import("../../components/terms-3/RelatedPostsAr.vue")['default']
+  Terms3RelatedPostsEn: typeof import("../../components/terms-3/RelatedPostsEn.vue")['default']
+  Terms3TermsContentAr: typeof import("../../components/terms-3/TermsContentAr.vue")['default']
+  Terms3TermsContentEn: typeof import("../../components/terms-3/TermsContentEn.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   NuxtErrorBoundary: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -979,6 +1137,84 @@ interface _GlobalComponents {
   LazyLightTeam: LazyComponent<typeof import("../../components/light/Team.vue")['default']>
   LazyLightTestimonials: LazyComponent<typeof import("../../components/light/Testimonials.vue")['default']>
   LazyLightWhyUs: LazyComponent<typeof import("../../components/light/WhyUs.vue")['default']>
+  LazyPrivacy1BlogCTAAr: LazyComponent<typeof import("../../components/privacy-1/BlogCTAAr.vue")['default']>
+  LazyPrivacy1BlogCTAEn: LazyComponent<typeof import("../../components/privacy-1/BlogCTAEn.vue")['default']>
+  LazyPrivacy1BlogContentAr: LazyComponent<typeof import("../../components/privacy-1/BlogContentAr.vue")['default']>
+  LazyPrivacy1BlogContentEn: LazyComponent<typeof import("../../components/privacy-1/BlogContentEn.vue")['default']>
+  LazyPrivacy1BlogHeroAr: LazyComponent<typeof import("../../components/privacy-1/BlogHeroAr.vue")['default']>
+  LazyPrivacy1BlogHeroEn: LazyComponent<typeof import("../../components/privacy-1/BlogHeroEn.vue")['default']>
+  LazyPrivacy1BlogProfileAr: LazyComponent<typeof import("../../components/privacy-1/BlogProfileAr.vue")['default']>
+  LazyPrivacy1BlogProfileEn: LazyComponent<typeof import("../../components/privacy-1/BlogProfileEn.vue")['default']>
+  LazyPrivacy1BlogRelatedAr: LazyComponent<typeof import("../../components/privacy-1/BlogRelatedAr.vue")['default']>
+  LazyPrivacy1BlogRelatedEn: LazyComponent<typeof import("../../components/privacy-1/BlogRelatedEn.vue")['default']>
+  LazyPrivacy1BlogTermsAr: LazyComponent<typeof import("../../components/privacy-1/BlogTermsAr.vue")['default']>
+  LazyPrivacy1BlogTermsEn: LazyComponent<typeof import("../../components/privacy-1/BlogTermsEn.vue")['default']>
+  LazyPrivacy1BreadcrumbAr: LazyComponent<typeof import("../../components/privacy-1/BreadcrumbAr.vue")['default']>
+  LazyPrivacy1BreadcrumbEn: LazyComponent<typeof import("../../components/privacy-1/BreadcrumbEn.vue")['default']>
+  LazyPrivacy1ContactInfoAr: LazyComponent<typeof import("../../components/privacy-1/ContactInfoAr.vue")['default']>
+  LazyPrivacy1ContactInfoEn: LazyComponent<typeof import("../../components/privacy-1/ContactInfoEn.vue")['default']>
+  LazyPrivacy1FooterAr: LazyComponent<typeof import("../../components/privacy-1/FooterAr.vue")['default']>
+  LazyPrivacy1FooterEn: LazyComponent<typeof import("../../components/privacy-1/FooterEn.vue")['default']>
+  LazyPrivacy1HeaderAr: LazyComponent<typeof import("../../components/privacy-1/HeaderAr.vue")['default']>
+  LazyPrivacy1HeaderEn: LazyComponent<typeof import("../../components/privacy-1/HeaderEn.vue")['default']>
+  LazyPrivacy1HeroAr: LazyComponent<typeof import("../../components/privacy-1/HeroAr.vue")['default']>
+  LazyPrivacy1HeroEn: LazyComponent<typeof import("../../components/privacy-1/HeroEn.vue")['default']>
+  LazyPrivacy1PrivacyContentAr: LazyComponent<typeof import("../../components/privacy-1/PrivacyContentAr.vue")['default']>
+  LazyPrivacy1PrivacyContentEn: LazyComponent<typeof import("../../components/privacy-1/PrivacyContentEn.vue")['default']>
+  LazyPrivacy1RelatedPostsAr: LazyComponent<typeof import("../../components/privacy-1/RelatedPostsAr.vue")['default']>
+  LazyPrivacy1RelatedPostsEn: LazyComponent<typeof import("../../components/privacy-1/RelatedPostsEn.vue")['default']>
+  LazyPrivacy2BlogCTAAr: LazyComponent<typeof import("../../components/privacy-2/BlogCTAAr.vue")['default']>
+  LazyPrivacy2BlogCTAEn: LazyComponent<typeof import("../../components/privacy-2/BlogCTAEn.vue")['default']>
+  LazyPrivacy2BlogContentAr: LazyComponent<typeof import("../../components/privacy-2/BlogContentAr.vue")['default']>
+  LazyPrivacy2BlogContentEn: LazyComponent<typeof import("../../components/privacy-2/BlogContentEn.vue")['default']>
+  LazyPrivacy2BlogHeroAr: LazyComponent<typeof import("../../components/privacy-2/BlogHeroAr.vue")['default']>
+  LazyPrivacy2BlogHeroEn: LazyComponent<typeof import("../../components/privacy-2/BlogHeroEn.vue")['default']>
+  LazyPrivacy2BlogProfileAr: LazyComponent<typeof import("../../components/privacy-2/BlogProfileAr.vue")['default']>
+  LazyPrivacy2BlogProfileEn: LazyComponent<typeof import("../../components/privacy-2/BlogProfileEn.vue")['default']>
+  LazyPrivacy2BlogRelatedAr: LazyComponent<typeof import("../../components/privacy-2/BlogRelatedAr.vue")['default']>
+  LazyPrivacy2BlogRelatedEn: LazyComponent<typeof import("../../components/privacy-2/BlogRelatedEn.vue")['default']>
+  LazyPrivacy2BlogTermsAr: LazyComponent<typeof import("../../components/privacy-2/BlogTermsAr.vue")['default']>
+  LazyPrivacy2BlogTermsEn: LazyComponent<typeof import("../../components/privacy-2/BlogTermsEn.vue")['default']>
+  LazyPrivacy2BreadcrumbAr: LazyComponent<typeof import("../../components/privacy-2/BreadcrumbAr.vue")['default']>
+  LazyPrivacy2BreadcrumbEn: LazyComponent<typeof import("../../components/privacy-2/BreadcrumbEn.vue")['default']>
+  LazyPrivacy2ContactInfoAr: LazyComponent<typeof import("../../components/privacy-2/ContactInfoAr.vue")['default']>
+  LazyPrivacy2ContactInfoEn: LazyComponent<typeof import("../../components/privacy-2/ContactInfoEn.vue")['default']>
+  LazyPrivacy2FooterAr: LazyComponent<typeof import("../../components/privacy-2/FooterAr.vue")['default']>
+  LazyPrivacy2FooterEn: LazyComponent<typeof import("../../components/privacy-2/FooterEn.vue")['default']>
+  LazyPrivacy2HeaderAr: LazyComponent<typeof import("../../components/privacy-2/HeaderAr.vue")['default']>
+  LazyPrivacy2HeaderEn: LazyComponent<typeof import("../../components/privacy-2/HeaderEn.vue")['default']>
+  LazyPrivacy2HeroAr: LazyComponent<typeof import("../../components/privacy-2/HeroAr.vue")['default']>
+  LazyPrivacy2HeroEn: LazyComponent<typeof import("../../components/privacy-2/HeroEn.vue")['default']>
+  LazyPrivacy2PrivacyContentAr: LazyComponent<typeof import("../../components/privacy-2/PrivacyContentAr.vue")['default']>
+  LazyPrivacy2PrivacyContentEn: LazyComponent<typeof import("../../components/privacy-2/PrivacyContentEn.vue")['default']>
+  LazyPrivacy2RelatedPostsAr: LazyComponent<typeof import("../../components/privacy-2/RelatedPostsAr.vue")['default']>
+  LazyPrivacy2RelatedPostsEn: LazyComponent<typeof import("../../components/privacy-2/RelatedPostsEn.vue")['default']>
+  LazyPrivacy3BlogCTAAr: LazyComponent<typeof import("../../components/privacy-3/BlogCTAAr.vue")['default']>
+  LazyPrivacy3BlogCTAEn: LazyComponent<typeof import("../../components/privacy-3/BlogCTAEn.vue")['default']>
+  LazyPrivacy3BlogContentAr: LazyComponent<typeof import("../../components/privacy-3/BlogContentAr.vue")['default']>
+  LazyPrivacy3BlogContentEn: LazyComponent<typeof import("../../components/privacy-3/BlogContentEn.vue")['default']>
+  LazyPrivacy3BlogHeroAr: LazyComponent<typeof import("../../components/privacy-3/BlogHeroAr.vue")['default']>
+  LazyPrivacy3BlogHeroEn: LazyComponent<typeof import("../../components/privacy-3/BlogHeroEn.vue")['default']>
+  LazyPrivacy3BlogProfileAr: LazyComponent<typeof import("../../components/privacy-3/BlogProfileAr.vue")['default']>
+  LazyPrivacy3BlogProfileEn: LazyComponent<typeof import("../../components/privacy-3/BlogProfileEn.vue")['default']>
+  LazyPrivacy3BlogRelatedAr: LazyComponent<typeof import("../../components/privacy-3/BlogRelatedAr.vue")['default']>
+  LazyPrivacy3BlogRelatedEn: LazyComponent<typeof import("../../components/privacy-3/BlogRelatedEn.vue")['default']>
+  LazyPrivacy3BlogTermsAr: LazyComponent<typeof import("../../components/privacy-3/BlogTermsAr.vue")['default']>
+  LazyPrivacy3BlogTermsEn: LazyComponent<typeof import("../../components/privacy-3/BlogTermsEn.vue")['default']>
+  LazyPrivacy3BreadcrumbAr: LazyComponent<typeof import("../../components/privacy-3/BreadcrumbAr.vue")['default']>
+  LazyPrivacy3BreadcrumbEn: LazyComponent<typeof import("../../components/privacy-3/BreadcrumbEn.vue")['default']>
+  LazyPrivacy3ContactInfoAr: LazyComponent<typeof import("../../components/privacy-3/ContactInfoAr.vue")['default']>
+  LazyPrivacy3ContactInfoEn: LazyComponent<typeof import("../../components/privacy-3/ContactInfoEn.vue")['default']>
+  LazyPrivacy3FooterAr: LazyComponent<typeof import("../../components/privacy-3/FooterAr.vue")['default']>
+  LazyPrivacy3FooterEn: LazyComponent<typeof import("../../components/privacy-3/FooterEn.vue")['default']>
+  LazyPrivacy3HeaderAr: LazyComponent<typeof import("../../components/privacy-3/HeaderAr.vue")['default']>
+  LazyPrivacy3HeaderEn: LazyComponent<typeof import("../../components/privacy-3/HeaderEn.vue")['default']>
+  LazyPrivacy3HeroAr: LazyComponent<typeof import("../../components/privacy-3/HeroAr.vue")['default']>
+  LazyPrivacy3HeroEn: LazyComponent<typeof import("../../components/privacy-3/HeroEn.vue")['default']>
+  LazyPrivacy3PrivacyContentAr: LazyComponent<typeof import("../../components/privacy-3/PrivacyContentAr.vue")['default']>
+  LazyPrivacy3PrivacyContentEn: LazyComponent<typeof import("../../components/privacy-3/PrivacyContentEn.vue")['default']>
+  LazyPrivacy3RelatedPostsAr: LazyComponent<typeof import("../../components/privacy-3/RelatedPostsAr.vue")['default']>
+  LazyPrivacy3RelatedPostsEn: LazyComponent<typeof import("../../components/privacy-3/RelatedPostsEn.vue")['default']>
   LazyServices1BreadcrumbAr: LazyComponent<typeof import("../../components/services-1/BreadcrumbAr.vue")['default']>
   LazyServices1BreadcrumbEn: LazyComponent<typeof import("../../components/services-1/BreadcrumbEn.vue")['default']>
   LazyServices1CTAAr: LazyComponent<typeof import("../../components/services-1/CTAAr.vue")['default']>
@@ -1027,6 +1263,8 @@ interface _GlobalComponents {
   LazyTeam2CTAEn: LazyComponent<typeof import("../../components/team-2/CTAEn.vue")['default']>
   LazyTeam2FooterAr: LazyComponent<typeof import("../../components/team-2/FooterAr.vue")['default']>
   LazyTeam2FooterEn: LazyComponent<typeof import("../../components/team-2/FooterEn.vue")['default']>
+  LazyTeam2HeaderAr: LazyComponent<typeof import("../../components/team-2/HeaderAr.vue")['default']>
+  LazyTeam2HeaderEn: LazyComponent<typeof import("../../components/team-2/HeaderEn.vue")['default']>
   LazyTeam2HeroAr: LazyComponent<typeof import("../../components/team-2/HeroAr.vue")['default']>
   LazyTeam2HeroEn: LazyComponent<typeof import("../../components/team-2/HeroEn.vue")['default']>
   LazyTeam2TeamGridAr: LazyComponent<typeof import("../../components/team-2/TeamGridAr.vue")['default']>
@@ -1041,6 +1279,84 @@ interface _GlobalComponents {
   LazyTeam3HeroEn: LazyComponent<typeof import("../../components/team-3/HeroEn.vue")['default']>
   LazyTeam3TeamGridAr: LazyComponent<typeof import("../../components/team-3/TeamGridAr.vue")['default']>
   LazyTeam3TeamGridEn: LazyComponent<typeof import("../../components/team-3/TeamGridEn.vue")['default']>
+  LazyTerms1BlogCTAAr: LazyComponent<typeof import("../../components/terms-1/BlogCTAAr.vue")['default']>
+  LazyTerms1BlogCTAEn: LazyComponent<typeof import("../../components/terms-1/BlogCTAEn.vue")['default']>
+  LazyTerms1BlogContentAr: LazyComponent<typeof import("../../components/terms-1/BlogContentAr.vue")['default']>
+  LazyTerms1BlogContentEn: LazyComponent<typeof import("../../components/terms-1/BlogContentEn.vue")['default']>
+  LazyTerms1BlogHeroAr: LazyComponent<typeof import("../../components/terms-1/BlogHeroAr.vue")['default']>
+  LazyTerms1BlogHeroEn: LazyComponent<typeof import("../../components/terms-1/BlogHeroEn.vue")['default']>
+  LazyTerms1BlogProfileAr: LazyComponent<typeof import("../../components/terms-1/BlogProfileAr.vue")['default']>
+  LazyTerms1BlogProfileEn: LazyComponent<typeof import("../../components/terms-1/BlogProfileEn.vue")['default']>
+  LazyTerms1BlogRelatedAr: LazyComponent<typeof import("../../components/terms-1/BlogRelatedAr.vue")['default']>
+  LazyTerms1BlogRelatedEn: LazyComponent<typeof import("../../components/terms-1/BlogRelatedEn.vue")['default']>
+  LazyTerms1BlogTermsAr: LazyComponent<typeof import("../../components/terms-1/BlogTermsAr.vue")['default']>
+  LazyTerms1BlogTermsEn: LazyComponent<typeof import("../../components/terms-1/BlogTermsEn.vue")['default']>
+  LazyTerms1BreadcrumbAr: LazyComponent<typeof import("../../components/terms-1/BreadcrumbAr.vue")['default']>
+  LazyTerms1BreadcrumbEn: LazyComponent<typeof import("../../components/terms-1/BreadcrumbEn.vue")['default']>
+  LazyTerms1ContactInfoAr: LazyComponent<typeof import("../../components/terms-1/ContactInfoAr.vue")['default']>
+  LazyTerms1ContactInfoEn: LazyComponent<typeof import("../../components/terms-1/ContactInfoEn.vue")['default']>
+  LazyTerms1FooterAr: LazyComponent<typeof import("../../components/terms-1/FooterAr.vue")['default']>
+  LazyTerms1FooterEn: LazyComponent<typeof import("../../components/terms-1/FooterEn.vue")['default']>
+  LazyTerms1HeaderAr: LazyComponent<typeof import("../../components/terms-1/HeaderAr.vue")['default']>
+  LazyTerms1HeaderEn: LazyComponent<typeof import("../../components/terms-1/HeaderEn.vue")['default']>
+  LazyTerms1HeroAr: LazyComponent<typeof import("../../components/terms-1/HeroAr.vue")['default']>
+  LazyTerms1HeroEn: LazyComponent<typeof import("../../components/terms-1/HeroEn.vue")['default']>
+  LazyTerms1RelatedPostsAr: LazyComponent<typeof import("../../components/terms-1/RelatedPostsAr.vue")['default']>
+  LazyTerms1RelatedPostsEn: LazyComponent<typeof import("../../components/terms-1/RelatedPostsEn.vue")['default']>
+  LazyTerms1TermsContentAr: LazyComponent<typeof import("../../components/terms-1/TermsContentAr.vue")['default']>
+  LazyTerms1TermsContentEn: LazyComponent<typeof import("../../components/terms-1/TermsContentEn.vue")['default']>
+  LazyTerms2BlogCTAAr: LazyComponent<typeof import("../../components/terms-2/BlogCTAAr.vue")['default']>
+  LazyTerms2BlogCTAEn: LazyComponent<typeof import("../../components/terms-2/BlogCTAEn.vue")['default']>
+  LazyTerms2BlogContentAr: LazyComponent<typeof import("../../components/terms-2/BlogContentAr.vue")['default']>
+  LazyTerms2BlogContentEn: LazyComponent<typeof import("../../components/terms-2/BlogContentEn.vue")['default']>
+  LazyTerms2BlogHeroAr: LazyComponent<typeof import("../../components/terms-2/BlogHeroAr.vue")['default']>
+  LazyTerms2BlogHeroEn: LazyComponent<typeof import("../../components/terms-2/BlogHeroEn.vue")['default']>
+  LazyTerms2BlogProfileAr: LazyComponent<typeof import("../../components/terms-2/BlogProfileAr.vue")['default']>
+  LazyTerms2BlogProfileEn: LazyComponent<typeof import("../../components/terms-2/BlogProfileEn.vue")['default']>
+  LazyTerms2BlogRelatedAr: LazyComponent<typeof import("../../components/terms-2/BlogRelatedAr.vue")['default']>
+  LazyTerms2BlogRelatedEn: LazyComponent<typeof import("../../components/terms-2/BlogRelatedEn.vue")['default']>
+  LazyTerms2BlogTermsAr: LazyComponent<typeof import("../../components/terms-2/BlogTermsAr.vue")['default']>
+  LazyTerms2BlogTermsEn: LazyComponent<typeof import("../../components/terms-2/BlogTermsEn.vue")['default']>
+  LazyTerms2BreadcrumbAr: LazyComponent<typeof import("../../components/terms-2/BreadcrumbAr.vue")['default']>
+  LazyTerms2BreadcrumbEn: LazyComponent<typeof import("../../components/terms-2/BreadcrumbEn.vue")['default']>
+  LazyTerms2ContactInfoAr: LazyComponent<typeof import("../../components/terms-2/ContactInfoAr.vue")['default']>
+  LazyTerms2ContactInfoEn: LazyComponent<typeof import("../../components/terms-2/ContactInfoEn.vue")['default']>
+  LazyTerms2FooterAr: LazyComponent<typeof import("../../components/terms-2/FooterAr.vue")['default']>
+  LazyTerms2FooterEn: LazyComponent<typeof import("../../components/terms-2/FooterEn.vue")['default']>
+  LazyTerms2HeaderAr: LazyComponent<typeof import("../../components/terms-2/HeaderAr.vue")['default']>
+  LazyTerms2HeaderEn: LazyComponent<typeof import("../../components/terms-2/HeaderEn.vue")['default']>
+  LazyTerms2HeroAr: LazyComponent<typeof import("../../components/terms-2/HeroAr.vue")['default']>
+  LazyTerms2HeroEn: LazyComponent<typeof import("../../components/terms-2/HeroEn.vue")['default']>
+  LazyTerms2RelatedPostsAr: LazyComponent<typeof import("../../components/terms-2/RelatedPostsAr.vue")['default']>
+  LazyTerms2RelatedPostsEn: LazyComponent<typeof import("../../components/terms-2/RelatedPostsEn.vue")['default']>
+  LazyTerms2TermsContentAr: LazyComponent<typeof import("../../components/terms-2/TermsContentAr.vue")['default']>
+  LazyTerms2TermsContentEn: LazyComponent<typeof import("../../components/terms-2/TermsContentEn.vue")['default']>
+  LazyTerms3BlogCTAAr: LazyComponent<typeof import("../../components/terms-3/BlogCTAAr.vue")['default']>
+  LazyTerms3BlogCTAEn: LazyComponent<typeof import("../../components/terms-3/BlogCTAEn.vue")['default']>
+  LazyTerms3BlogContentAr: LazyComponent<typeof import("../../components/terms-3/BlogContentAr.vue")['default']>
+  LazyTerms3BlogContentEn: LazyComponent<typeof import("../../components/terms-3/BlogContentEn.vue")['default']>
+  LazyTerms3BlogHeroAr: LazyComponent<typeof import("../../components/terms-3/BlogHeroAr.vue")['default']>
+  LazyTerms3BlogHeroEn: LazyComponent<typeof import("../../components/terms-3/BlogHeroEn.vue")['default']>
+  LazyTerms3BlogProfileAr: LazyComponent<typeof import("../../components/terms-3/BlogProfileAr.vue")['default']>
+  LazyTerms3BlogProfileEn: LazyComponent<typeof import("../../components/terms-3/BlogProfileEn.vue")['default']>
+  LazyTerms3BlogRelatedAr: LazyComponent<typeof import("../../components/terms-3/BlogRelatedAr.vue")['default']>
+  LazyTerms3BlogRelatedEn: LazyComponent<typeof import("../../components/terms-3/BlogRelatedEn.vue")['default']>
+  LazyTerms3BlogTermsAr: LazyComponent<typeof import("../../components/terms-3/BlogTermsAr.vue")['default']>
+  LazyTerms3BlogTermsEn: LazyComponent<typeof import("../../components/terms-3/BlogTermsEn.vue")['default']>
+  LazyTerms3BreadcrumbAr: LazyComponent<typeof import("../../components/terms-3/BreadcrumbAr.vue")['default']>
+  LazyTerms3BreadcrumbEn: LazyComponent<typeof import("../../components/terms-3/BreadcrumbEn.vue")['default']>
+  LazyTerms3ContactInfoAr: LazyComponent<typeof import("../../components/terms-3/ContactInfoAr.vue")['default']>
+  LazyTerms3ContactInfoEn: LazyComponent<typeof import("../../components/terms-3/ContactInfoEn.vue")['default']>
+  LazyTerms3FooterAr: LazyComponent<typeof import("../../components/terms-3/FooterAr.vue")['default']>
+  LazyTerms3FooterEn: LazyComponent<typeof import("../../components/terms-3/FooterEn.vue")['default']>
+  LazyTerms3HeaderAr: LazyComponent<typeof import("../../components/terms-3/HeaderAr.vue")['default']>
+  LazyTerms3HeaderEn: LazyComponent<typeof import("../../components/terms-3/HeaderEn.vue")['default']>
+  LazyTerms3HeroAr: LazyComponent<typeof import("../../components/terms-3/HeroAr.vue")['default']>
+  LazyTerms3HeroEn: LazyComponent<typeof import("../../components/terms-3/HeroEn.vue")['default']>
+  LazyTerms3RelatedPostsAr: LazyComponent<typeof import("../../components/terms-3/RelatedPostsAr.vue")['default']>
+  LazyTerms3RelatedPostsEn: LazyComponent<typeof import("../../components/terms-3/RelatedPostsEn.vue")['default']>
+  LazyTerms3TermsContentAr: LazyComponent<typeof import("../../components/terms-3/TermsContentAr.vue")['default']>
+  LazyTerms3TermsContentEn: LazyComponent<typeof import("../../components/terms-3/TermsContentEn.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   LazyNuxtErrorBoundary: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
