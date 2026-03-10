@@ -62,6 +62,19 @@
                 </div>
               </div>
             </div>
+
+            <!-- Blog -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedCategory = 'blog'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog</h3>
+                  <span>Blog Pages</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -318,6 +331,151 @@
           </div>
         </div>
 
+        <!-- Step 2e: Blog Page Selection -->
+        <div v-else-if="selectedCategory === 'blog' && !selectedTheme" key="step-blog">
+          <h1 class="main-title">Blog Pages</h1>
+          <p class="subtitle">Choose a Blog page version</p>
+
+          <div class="row g-4 mt-4 justify-content-center">
+            <!-- Blog Details 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-details-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog Details 1</h3>
+                  <span>Blog Details Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Details 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-details-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog Details 2</h3>
+                  <span>Blog Details Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Details 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-details-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog Details 3</h3>
+                  <span>Blog Details Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog 1 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-1'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog 1</h3>
+                  <span>Blog Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog 2 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-2'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog 2</h3>
+                  <span>Blog Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog 3 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-3'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog 3</h3>
+                  <span>Blog Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog 4 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-4'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog 4</h3>
+                  <span>Blog Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog 5 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-5'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog 5</h3>
+                  <span>Blog Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog 6 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-6'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog 6</h3>
+                  <span>Blog Page</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog 7 -->
+            <div class="col-md-5 col-lg-4">
+              <div @click="selectedTheme = 'blog/blog-7'" class="choice-card clickable">
+                <div class="icon-box light">
+                  <i data-lucide="newspaper"></i>
+                </div>
+                <div class="content">
+                  <h3>Blog 7</h3>
+                  <span>Blog Page</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <button @click="selectedCategory = null" class="btn-back">
+              <i data-lucide="arrow-left"></i>
+              Back to Sections
+            </button>
+          </div>
+        </div>
+
         <!-- Step 2b: Theme Selection (Only for Home) -->
         <div v-else-if="selectedCategory === 'home' && !selectedTheme" key="step1">
           <h1 class="main-title">Choose Your Version</h1>
@@ -419,7 +577,9 @@
           <h1 class="main-title" v-else>
             {{ selectedTheme.startsWith('about/about-') ? 'About ' + selectedTheme.split('-')[1] : 
                selectedTheme.startsWith('services/services-') ? 'Services ' + selectedTheme.split('-')[1] : 
-               selectedTheme.startsWith('team/team-') ? 'Team ' + selectedTheme.split('-')[1] : 'Pages' }}
+               selectedTheme.startsWith('team/team-') ? 'Team ' + selectedTheme.split('-')[1] : 
+               selectedTheme.startsWith('blog/blog-details-') ? 'Blog Details ' + selectedTheme.split('blog-details-')[1] : 
+               selectedTheme.startsWith('blog/blog-') ? 'Blog ' + selectedTheme.split('blog-')[1] : 'Pages' }}
           </h1>
           <p class="subtitle">Select your preferred language</p>
 
@@ -456,7 +616,8 @@
               <i data-lucide="arrow-left"></i>
               {{ selectedCategory === 'home' ? 'Back to Versions' : 
                  selectedCategory === 'about' ? 'Back to About Pages' : 
-                 selectedCategory === 'team' ? 'Back to Team Pages' : 'Back to Services Pages' }}
+                 selectedCategory === 'team' ? 'Back to Team Pages' : 
+                 selectedCategory === 'blog' ? 'Back to Blog Pages' : 'Back to Services Pages' }}
             </button>
           </div>
         </div>
@@ -472,12 +633,7 @@ const selectedCategory = ref(null)
 const selectedTheme = ref(null)
 
 const goBackFromLanguage = () => {
-  if (selectedCategory.value === 'about' || selectedCategory.value === 'services' || selectedCategory.value === 'team') {
-    // Go back to version selection
-    selectedTheme.value = null
-  } else {
-    selectedTheme.value = null
-  }
+  selectedTheme.value = null
 }
 
 useHead({
